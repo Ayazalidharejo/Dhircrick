@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Fashioncards from "../Fashioncard/Fashioncards";
 import ProductGrid from "../Products/Products";
 import Simplecard from "../Simplesection/Simplecard";
-import ProductCategories from "../Ourcatagory/ourcatagory";
+import ProductCategories from "../Ourcatagory/Ourcatagory";
 import KitchenItems from "../Swiper/Swiper";
 import Bestselproduct from "../Bestselproduct/Bestselproduct";
 import Todaytranding from "../Todaytrending/Todaytranding";

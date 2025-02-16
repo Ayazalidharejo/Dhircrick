@@ -1,66 +1,66 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const categories = [
   {
     title: 'Baby Products',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/Copy-of-CATEGORIES.png',
-    link: 'https://dhircrickllc.com/product-category/baby-products/'
+    link: 'Babyproduct/'
   },
   {
     title: 'Beauty Products',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-8.png',
-    link: 'https://dhircrickllc.com/product-category/beauty-products/'
+    link: 'Beautyproduct/'
   },
   {
     title: 'Grocery & Gourmet',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-7.png',
-    link: 'https://dhircrickllc.com/product-category/grocery-gourmet/'
+    link: 'Grocerygourmet/'
   },
   {
     title: 'Home & Kitchen',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-6.png',
-    link: 'https://dhircrickllc.com/product-category/home-kitchen/'
+    link: 'HomeKitchen/'
   },
   {
     title: 'Lawn, Patio & Garden',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-5.png',
-    link: 'https://dhircrickllc.com/product-category/lawn-patio-garden/'
+    link: 'Lawnpatioparden/'
   },
   {
     title: 'Office Products',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-4.png',
-    link: 'https://dhircrickllc.com/product-category/office-products/'
+    link: 'Officeproducts/'
   },
   {
     title: 'Pet Supplies',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-3.png',
-    link: 'https://dhircrickllc.com/product-category/pet-supplies/'
+    link: 'Petsuplince/'
   },
   {
     title: 'Supplements',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-1.png',
-    link: 'https://dhircrickllc.com/product-category/supplements/'
+    link: 'Supplements/'
   },
   {
     title: 'Tools & Improvement',
    
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-10.png',
-    link: 'https://dhircrickllc.com/product-category/tools-improvement/',
+    link: 'ToolsImprovement/',
   },
   {
     title: 'Toys & Games',
  
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-9.png',
-    link: 'https://dhircrickllc.com/product-category/toys-games/',
+    link: 'Toyandgames/',
   },
 ];
 

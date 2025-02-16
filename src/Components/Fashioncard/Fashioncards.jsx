@@ -32,7 +32,7 @@ const Fashioncards = () => {
     <div className="container mt-5">
       <div className="row">
         {categories.map((category, index) => (
-          <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
+          <div className="col-6 col-sm-6 col-md-3 mb-4" key={index}>
             <div className="product-card">
       <img src={category.image} alt="Baby Products" className="product-image" />
       <div className="overlay">

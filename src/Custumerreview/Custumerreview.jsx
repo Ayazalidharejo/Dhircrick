@@ -44,11 +44,14 @@ const CustomerReviews = () => {
      
       <h2 className="text-center mb-4">Customer Reviews</h2>
       <div className="d-flex align-item-center">
-      <div className="text-center mt-5 px-2">
+      <div className="text-center mt-5 px-2  w-25 ms-4">
         <h4>Excellent</h4>
         <div className="text-warning">★★★★★ 4.5</div>
-        <p>Based on <a href="#">192 reviews</a></p>
+        <p style={{ opacity: 0.5 }} className="d-flex align-items-center">Based on <a className="text-decoration-none text-black" href="#">192 reviews</a></p>
       </div>
+
+  
+
       <Swiper
         modules={[Pagination]}
         pagination={{ clickable: true }}

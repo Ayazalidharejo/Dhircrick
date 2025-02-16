@@ -1,0 +1,16 @@
+.maine{
+    background-color: #3044cf;
+}
+@media screen and (max-width: 480px) {
+    .texts {
+        font-size: 50px; /* Correct syntax for CSS */
+    }
+}
+.texts{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: #fff;
+    padding-left: 50px;
+}
+

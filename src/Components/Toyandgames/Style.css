@@ -1,0 +1,65 @@
+/* Importing the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global selector for applying the fonts */
+* {
+  font-family: 'Roboto', sans-serif; /* Default font for all elements */
+}
+
+/* Custom Montserrat Class with weight and style */
+body {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
+  font-style: normal;  /* Replace with 'italic' if you need italic text */
+}
+
+.productname{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+.background{
+    background-color: #3044cf;
+}
+.colorer{
+ Color: #fff;
+ opacity: 0.75;
+}
+
+.imagebg{
+    background-color: #dddada;
+}
+.textmaine{
+    font-size: 50px;
+}
+
+/* Hide the element on xs screens (mobile) */
+@media (max-width: 480px) {
+    .hide-xs {
+      display: none !important;
+    }
+    .responsive-padding {
+       margin-left: 80px !important;
+       margin-bottom: 20px;
+       position: absolute;
+       top: 110px;
+      }
+
+      .maine{
+        position: relative;
+      }
+      .catogarynames{
+        display: none;
+      }
+      .textmaine{
+      
+        font-size: 40px !important;
+       padding-top: 40px;
+      }
+      .headings{
+        height: 160px;
+      }
+
+  }
+  
