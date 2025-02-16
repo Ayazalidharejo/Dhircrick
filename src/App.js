@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {store} from "./Store/Store"
+
+
+import { Provider } from "react-redux";
+import Mainepage from "./Components/MainehomeSection/Parentmainesection";
+import NavigationBar from "./Components/Layout/Layout";
+
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element:   < NavigationBar /> ,
+      errorElement: <> <h1> error </h1> </>,
+      children: [
+        {
+          path: "",
+          element:  <Mainepage /> ,
+        },
+       
+       
+      
+       
+        // {
+        //   path: "/About",
+      
+        //   element:  <AboutUs />   ,
+        // },
+        // {
+        //   path: "/Contact",
+         
+        //   element:  <ContactForm />   ,
+        // },
+   
+        
+       
+      ],
+    },
+  ]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <Provider store={store}>
+        <RouterProvider router={router} />
+        
+      </Provider>
+    
     </div>
   );
 }

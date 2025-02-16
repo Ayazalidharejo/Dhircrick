@@ -1,0 +1,16 @@
+@media (max-width: 480px) {
+    .menue {
+      /* flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important; */
+      margin-left: 50px;
+    }
+    .navbar-nav li {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .searchicon{
+    font-size: 45px;
+  }
