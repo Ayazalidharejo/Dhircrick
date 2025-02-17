@@ -1,16 +1,30 @@
 .maine{
     background-color: #3044cf;
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .texts {
-        font-size: 50px; /* Correct syntax for CSS */
+ 
+        letter-spacing: 5px;
+        color: #fff;
+        padding-left: 80px !important;
+        /* width: 100%; */
+    
     }
 }
-.texts{
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: 5px;
-    color: #fff;
-    padding-left: 50px;
-}
 
+
+
+
+
+
+/* For screens up to 1280px */
+@media (min-width: 1280px) {
+    .texts {
+        font-size: 30px !important;
+        font-weight: 800;
+        letter-spacing: 5px;
+        color: #fff;
+        /* padding-left: 270px; */
+        margin-left: 200px;
+    }
+}

@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  { name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  { name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  { name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  { name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  { name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  { name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  { name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  { name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  { name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  { name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  { name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:138 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
+  {id:139, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
+  {id:140 , name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
+  {id:141, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
+  {id:142, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
+  {id:143, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
+  {id:144, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
+  {id:145, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
+  {id:146, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
+  {id:147, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
+  {id:148, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
 ];
 
 const ToolsImprovement = () => {
@@ -101,7 +101,7 @@ const ToolsImprovement = () => {
           <div className="background headings ">
             <div className="d-flex align-items-center justify-content-center ">
               <KeyboardBackspaceIcon />
-              <h1 className="ms-3 textmaine pt-3">Tools & Improvement</h1>
+              <h1 className="ms-3 textmaine pt-3">Tools <span className="valuee"> & Improvement</span></h1>
             </div>
 
             {/* Category Links Section */}

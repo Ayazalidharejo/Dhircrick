@@ -119,14 +119,14 @@ import React, { useState, useEffect } from "react";
 import babycream from "../images/babycream11.png";
 import bottle from "../images/kk.png";
 import cream from "../images/saven.jpg";
-import fan from "../images/than.png";
+import fan from "../images/m.jpg";
 import botle from "../images/saven.jpg";
 import botle2 from "../images/kk.png";
 import botle3 from "../images/babycream11.png";
-import sampo from "../images/than.png";
+import sampo from "../images/m.jpg";
 import sampo1 from "../images/babycream11.png";
 import sampo2 from "../images/saven.jpg";
-import sampo3 from "../images/than.png";
+import sampo3 from "../images/f.jpg";
 import sampo4 from "../images/babycream11.png";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../Slice/Slice";
@@ -135,17 +135,17 @@ import { Tooltip } from "@mui/material";
 import "./Style.css";
 
 const products = [
-  { id: 1, name: "TREL Mini Handheld Stroller Fan", category: "Baby Products", price: 29.99, image: fan, hoverImage: bottle },
-  { id: 2, name: "Douxo S3 PYO Pads 30 Count fan", category: "Pet Supplies", price: 14.99, image: cream, hoverImage: sampo1 },
-  { id: 3, name: "OLLY Ultra Strength Goodbye Stress", category: "Supplements", price: 56.00, image: bottle, hoverImage: sampo2 },
-  { id: 4, name: "Matys Multipurpose Baby Ointment", category: "Baby Products", price: 14.99, image: babycream, hoverImage: sampo3 },
-  { id: 5, name: "Baby Diaper Rash Cream", category: "Baby Products", price: 10.99, image: botle, hoverImage: sampo4 },
-  { id: 6, name: "Dog Chew Toy", category: "Pet Supplies", price: 8.99, image: botle2, hoverImage: fan },
-  { id: 7, name: "Fitness Tracker", category: "Supplements", price: 25.99, image: botle3, hoverImage: cream },
-  { id: 8, name: "Protein Powder", category: "Supplements", price: 49.99, image: babycream, hoverImage: bottle },
-  { id: 9, name: "Dog Shampoo", category: "Pet Supplies", price: 12.99, image: fan, hoverImage: sampo2 },
-  { id: 10, name: "Vitamins for Kids", category: "Supplements", price: 18.99, image: sampo, hoverImage: babycream },
-  { id: 10, name: "Vitamins for Kids", category: "", price: 18.99, image: sampo, hoverImage: babycream },
+  { id: 28, name: "TREL Mini Handheld Stroller Fan", category: "Baby Products", price: 29.99, image: fan, hoverImage: bottle },
+  { id: 29, name: "Douxo S3 PYO Pads 30 Count fan", category: "Pet Supplies", price: 14.99, image: cream, hoverImage: sampo1 },
+  { id: 30, name: "OLLY Ultra Strength Goodbye Stress", category: "Supplements", price: 56.00, image: bottle, hoverImage: sampo2 },
+  { id: 31, name: "Matys Multipurpose Baby Ointment", category: "Baby Products", price: 14.99, image: babycream, hoverImage: sampo3 },
+  { id: 32, name: "Baby Diaper Rash Cream", category: "Baby Products", price: 10.99, image: botle, hoverImage: sampo4 },
+  { id: 33, name: "Dog Chew Toy", category: "Pet Supplies", price: 8.99, image: botle2, hoverImage: fan },
+  { id: 34, name: "Fitness Tracker", category: "Supplements", price: 25.99, image: botle3, hoverImage: cream },
+  { id: 35, name: "Protein Powder", category: "Supplements", price: 49.99, image: babycream, hoverImage: bottle },
+  { id: 36, name: "Dog Shampoo", category: "Pet Supplies", price: 12.99, image: fan, hoverImage: sampo2 },
+  { id: 37, name: "Vitamins for Kids", category: "Supplements", price: 18.99, image: sampo, hoverImage: babycream },
+  { id: 38, name: "Vitamins for Kids", category: "tools and", price: 18.99, image: sampo, hoverImage: babycream },
 ];
 
 const uniqueCategories = ["All", ...new Set(products.map(p => p.category))];
@@ -171,10 +171,10 @@ const ProductGrid = () => {
 
   return (
     <div className="container my-4">
-      <h2 className="text-center">NEW ARRIVALS</h2>
+      {/* <h2 className="text-center">NEW ARRIVALS</h2> */}
 
       {/* Search input */}
-      <div className="d-flex justify-content-center mb-4">
+      {/* <div className="d-flex justify-content-center mb-4">
         <input
           type="text"
           placeholder="Search for products..."
@@ -182,7 +182,7 @@ const ProductGrid = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-      </div>
+      </div> */}
 
       {/* Product Grid */}
       <div className="row">
@@ -209,7 +209,7 @@ const ProductGrid = () => {
                 <h5 className="text-black">${product.price.toFixed(2)}</h5>
                 <button
                   onClick={() => dispatch(addProduct(product, toast))}
-                  className="btn btn-warning w-100"
+                  className="btn btn-primary w-100"
                 >
                   ADD TO CART
                 </button>

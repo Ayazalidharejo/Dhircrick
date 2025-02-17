@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  { name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  { name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  { name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  { name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  { name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  { name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  { name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  { name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  { name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  { name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  { name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:72 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
+  {id:73 , name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
+  {id:74 , name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
+  {id:75 , name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
+  {id: 76, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
+  {id:77 , name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
+  {id: 78, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
+  {id:79 , name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
+  {id: 80, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
+  {id: 81, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
+  {id: 82, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
 ];
 
 const Homeandkichen = () => {

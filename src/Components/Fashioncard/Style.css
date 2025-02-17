@@ -1,4 +1,4 @@
-.category-card {
+/* .category-card {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -48,10 +48,10 @@
   .image-wrapper{
     position: relative;
   }
-  /*  */
+
   
   .forborder:hover {
-    border: 5px solid #38c71b !important; /* Green border on hover */
+    border: 5px solid #38c71b !important; 
   }
   
 
@@ -98,4 +98,130 @@
   .product-card:hover .product-image {
     transform: scale(1.1);
   }
-  
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Ensures the product card adjusts smoothly */
+.product-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Ensure images are fully responsive */
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Overlay style */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  transform: translate(-50%, -50%);
+}
+
+/* Product card hover effect: scaling and revealing overlay */
+.product-card:hover .overlay {
+  opacity: 1;
+  width: 60%;
+  height: 70%;
+  border-color: rgb(204, 202, 202);
+}
+
+/* Product image hover effect: slight zoom */
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+
+/* On large screens, cards take up 3 columns (4 cards per row) */
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/* On medium screens, cards take up 4 columns (3 cards per row) */
+@media (max-width: 1199px) {
+  .col-md-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+/* On small screens, cards take up 6 columns (2 cards per row) */
+@media (max-width: 767px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* On extra small screens, cards take up full width (1 card per row) */
+@media (max-width: 480px) {
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Styling for the container */
+.container {
+  padding: 0 15px;
+}
+
+/* Optional styling for product overlay text */
+.overlay {
+  display: none;
+}
+
+/* Display overlay when product card is hovered */
+.product-card:hover .overlay {
+  display: flex;
+}
+
+/* Additional touch-up on the image wrapper */
+.image-wrapper {
+  position: relative;
+}
+
+/* Ensure borders are responsive */
+.forborder:hover {
+  border: 5px solid #38c71b !important; /* Green border on hover */
+}

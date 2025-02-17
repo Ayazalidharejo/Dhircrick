@@ -25,6 +25,9 @@ import ContactForm from "./Components/Contectuspage/ContactForm";
 import Signup from "./Components/Outh/Signup";
 import Signin from "./Components/Outh/Signin";
 import Checkout from "./Components/Checkoutpage/Checkout";
+import Favirate from "./Components/Faviratepage/Favirate";
+import Compare from "./Components/Comparepage/Compare";
+import ProductGrid from "./Components/Products/Products";
 
 
 function App() {
@@ -52,6 +55,11 @@ function App() {
           path: "/Toyandgames",
          
           element:  <Toyandgames />   ,
+        },
+        {
+          path: "/Compare",
+         
+          element:  <Compare />   ,
         },
         {
           path: "/Petsuplince",
@@ -127,7 +135,17 @@ function App() {
          
           element:  <Checkout />   ,
         },
-   
+        {
+          path: "/Favirate",
+         
+          element:  <Favirate />   ,
+        },
+        {
+          path: "/ProductGrid",
+         
+          element:  <ProductGrid />   ,
+        },
+  
         
        
       ],

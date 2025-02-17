@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <h5 className="mb-3">N-YIYI 346, </h5>
+            <h5 className="mb-3">PYXIS </h5>
             {/* <img style={{width:"100px"}} src={img} alt="" /> */}
-            <p>Business Address: 6841 W Oakton St. | Niles, IL 60714</p>
-            <p>Phone Number:  630 547 2064</p>
-            <p>Warehouse Addres: 1401 Centre Cir | Downers Grove, IL 60515</p>
-            <p>info@nyiy346.com</p>
+            {/* <p>Business Address: 6841 W Oakton St. | Niles, IL 60714</p> */}
+            <p>Phone Number:  +1 (832) 875-2999</p>
+            <p>Warehouse Addres: MUDDASSAR SAJJAD SOLE MBR 2771 CLAYTON RD CONCORD, CA 94519</p>
+            <p>Pyxis.info@gmail.com</p>
           </div>
           <div className="col-md-2">
             <h5 className="mb-3">Quick Links</h5>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <hr className="bg-light" />
         <div className="d-flex justify-content-between align-items-center">
-          <p className="mb-0">&copy; N-YIYI 346,  2025 All Rights Reserved.</p>
+          <p className="mb-0">&copy; PYXIS  2025 All Rights Reserved.</p>
           <div>
             <img src={img} alt="Visa" width="240" className="me-2" />
             {/* <img src="mastercard.png" alt="Mastercard" width="40" className="me-2" />
