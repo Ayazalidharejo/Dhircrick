@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Fashioncards from "../Fashioncard/Fashioncards";
 import ProductGrid from "../Products/Products";
 import Simplecard from "../Simplesection/Simplecard";
-import ProductCategories from "../Ourcatagory/Ourcatagory";
+
 import KitchenItems from "../Swiper/Swiper";
 import Bestselproduct from "../Bestselproduct/Bestselproduct";
 import Todaytranding from "../Todaytrending/Todaytranding";
@@ -21,6 +21,8 @@ import FoodSection from "../FoodSection/FoodSection";
 import Discountproduct from "../Discoutproduct/Discountproduct";
 import CustomerReviews from "../../Custumerreview/Custumerreview";
 import Footer from "../Footer/Footer";
+import Catagory from "../Faltu/Catagory";
+
 
 const Parentmainesection = () => {
   return (
@@ -228,7 +230,7 @@ const Parentmainesection = () => {
     <Fashioncards/>
     <ProductGrid/>
     <Simplecard/>
-    <ProductCategories/>
+    <Catagory/>
     <KitchenItems/> <br />
     <Bestselproduct />
     <Todaytranding/>

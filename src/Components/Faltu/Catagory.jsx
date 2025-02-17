@@ -64,7 +64,7 @@ const categories = [
   },
 ];
 
-const ProductCategories = () => {
+const Catagory = () => {
   return (
     <div className="container">
         <h1 className='text-center my-5'>OUR CATEGORIES</h1>
@@ -94,4 +94,4 @@ const ProductCategories = () => {
   );
 }
 
-export default ProductCategories;
+export default Catagory;
