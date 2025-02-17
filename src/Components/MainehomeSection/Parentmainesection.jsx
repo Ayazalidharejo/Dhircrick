@@ -47,7 +47,7 @@ const Parentmainesection = () => {
                   <div className="row d-flex align-items-center justify-content-center">
                     <div className="col-6">
                       <p className="mb- text-center fs-5 ps-5 mb- pt-4 para">
-                        Discover quality items at <strong>N-YIYI 346</strong>, your go-to store for all needs.
+                        Discover quality items at <strong>P Y X I S</strong>, your go-to store for all needs.
                         <a href="#" className="link-light d-block text-center w-100 ps- mt-">
                         {/* info@nyiy346.com */}
                       </a>
@@ -57,7 +57,7 @@ const Parentmainesection = () => {
                     <div className="col-5 mt-5">
                       <div className="price-box d-flex flex-column bg-white p-3 text-black rounded-2 w-75 text-center btn1">
                         <h2 className="price fs-2 fw-bold ">6.99$</h2>
-                        <Link to="/Kichenmaine">   <button className="btn btn-dark w-75 py-2 text-center ms-">Shop Now</button> </Link>
+                        <Link to="/HomeKitchen">   <button className="btn btn-dark w-75 py-2 text-center ms-">Shop Now</button> </Link>
                       </div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ const Parentmainesection = () => {
                   <div className="row d-flex align-items-center">
                     <div className="col-6">
                       <p className=" text-center fs-5 ps-5 ">
-                        Get the best deals on high-quality products now at <strong>N-YIYI 346</strong>.
+                        Get the best deals on high-quality products now at <strong>P Y X I S</strong>.
                         <a href="#" className="link-light d-block text-center w-100 ps- mt-">
                         {/* info@nyiy346.com */}
                       </a>
@@ -90,7 +90,7 @@ const Parentmainesection = () => {
                     <div className="col-5 mt-3">
                       <div className="price-box d-flex flex-column bg-white p-3 text-black rounded-2 w-75 text-center">
                         <h2 className="price fs-2 fw-bold ps-">10.99$</h2>
-                      <Link to="/Kichenmaine">   <button className="btn btn-dark w-75 py-2 text-center ms-">Shop Now</button> </Link>
+                      <Link to="/HomeKitchen">   <button className="btn btn-dark w-75 py-2 text-center ms-">Shop Now</button> </Link>
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ const Parentmainesection = () => {
                   <div className="row d-flex align-items-center">
                     <div className="col-5">
                       <p className=" text-center  para ms-1 ">
-                        Get the best deals on high-quality products now at <strong>N-YIYI 346 <br />
+                        Get the best deals on high-quality products now at <strong>PYXIS <br />
                     
                         {/* info@nyiy346.com */}
                      
@@ -171,7 +171,7 @@ const Parentmainesection = () => {
                     <div className="col-7 pe-5  ">
                       <div className="price-box d-flex flex-column bg-white p-3 text-black rounded-2   text-center">
                         <h2 className="price fs-6 fw-bold ps-2">6.99$</h2>
-                        <Link className="d-flex w-100 align-items-center" to="/Kichenmaine">
+                        <Link className="d-flex w-100 align-items-center" to="/HomeKitchen">
   <button className="btn btn-dark w-75 py-2 text-center  shopbtn ms-4">
     Shop Now
   </button>
@@ -198,7 +198,7 @@ const Parentmainesection = () => {
                   <div className="row d-flex align-items-center">
                     <div className="col-5">
                       <p className=" text-center  para ms- ">
-                        Get the best deals on high-quality products now at <strong>N-YIYI 346 <br />
+                        Get the best deals on high-quality products now at <strong>PYXIS <br />
                     
                         {/* info@nyiy346.com */}
                      
@@ -210,7 +210,7 @@ const Parentmainesection = () => {
                     <div className="col-7 pe-5  ">
                       <div className="price-box d-flex flex-column bg-white p-3 text-black rounded-2   text-center">
                         <h2 className="price fs-6 fw-bold ps-2">6.99$</h2>
-                        <Link className="d-flex w-100 align-items-center" to="/Kichenmaine">
+                        <Link className="d-flex w-100 align-items-center" to="/HomeKitchen">
   <button className="btn btn-dark w-75 py-2 text-center  shopbtn ms-4">
     Shop Now
   </button>
@@ -227,7 +227,7 @@ const Parentmainesection = () => {
         </Swiper>
       </div>
     </div>
-    <Fashioncards/>
+    {/* <Fashioncards/> */}
     <ProductGrid/>
     <Simplecard/>
     <Catagory/>

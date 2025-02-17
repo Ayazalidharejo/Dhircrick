@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/vitamansurep.jpg";
+import two from "../images/vitaminc.jpg";
+import three from "../images/enegycap.jpg";
+import four from "../images/premunvector.jpg";
+import five from "../images/blanksuplimentbotle.jpg";
+import saven from "../images/vitamansurep.jpg";
+import eight from "../images/vitaminc.jpg";
+import nine from "../images/enegycap.jpg";
+import ten from "../images/premunvector.jpg";
+
+
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:127 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:128, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:129, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:130, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:131, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:132, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:133, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:134, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:135, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:136, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:137, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:127 , name: "vitaman surep", price: "$12.99", category: "Supplements", image: one },
+  {id:128, name: "vitamin c", price: "$9.99", category: "Supplements", image: two },
+  {id:129, name: "enegy cap", price: "$19.99", category: "Supplements", image: three },
+  {id:130, name: "premun vector", price: "$9.99", category: "Supplements", image: four },
+  {id:131, name: "blank supliment botle", price: "$36.88", category: "Supplements", image: five, discount: "-8%" },
+  {id:132, name: "vitaman surep", price: "$9.99", category: "Supplements", image: one },
+  {id:133, name: "vitamin c", price: "$12.99", category: "Supplements", image: saven },
+  {id:134, name: "enegy cap", price: "$9.99", category: "Supplements", image: eight },
+  {id:135, name: "premun vector", price: "$19.99", category: "Supplements", image: nine },
+  {id:136, name: "blank supliment botle", price: "$9.99", category: "Supplements", image: five },
+  {id:137, name: "vitaman surep", price: "$36.88", category: "Supplements", image: ten, discount: "-8%" },
 ];
 
 const Supplements = () => {

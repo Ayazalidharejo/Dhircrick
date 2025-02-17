@@ -6,17 +6,16 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/sportsshart.jpg";
+import two from "../images/sportscap.jpg";
+import three from "../images/sportsshow.jpg";
+import four from "../images/tennisgame.jpg";
+import five from "../images/cricketball.jpg";
+import six from "../images/amiricanfootball.jpg";
+import saven from "../images/footballball.jpg";
+import eight from "../images/plasticshuttlec.jpg";
+import nine from "../images/waterbotle.jpg";
+
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +40,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:116 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id: 117, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:118, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:119, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:120, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:121, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:122, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:123, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:124, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:125, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:126, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:116 , name: "sports shart", price: "$12.99", category: "Sports & Outdor", image: one },
+  {id: 117, name: "sports cape", price: "$9.99", category: "Sports & Outdor", image: two },
+  {id:118, name: "sports show", price: "$19.99", category: "Sports & Outdor", image: three },
+  {id:119, name: "tennis game", price: "$9.99", category: "Sports & Outdor", image: four },
+  {id:120, name: "cricket ball", price: "$36.88", category: "Sports & Outdor", image: five, discount: "-8%" },
+  {id:121, name: "amirican football", price: "$9.99", category: "Sports & Outdor", image: six },
+  {id:122, name: "football ball", price: "$12.99", category: "Sports & Outdor", image: saven },
+  {id:123, name: "plastic shuttlec", price: "$9.99", category: "Sports & Outdor", image: eight },
+  {id:124, name: "water botle", price: "$19.99", category: "Sports & Outdor", image: nine },
+  // {id:125, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
+  // {id:126, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
 ];
 
 const Sportsandoutdoor = () => {
@@ -146,7 +145,7 @@ const Sportsandoutdoor = () => {
               </div>
               <h5 className="mt-4 text-black">TOP RATED PRODUCTS</h5>
               <ul className="list-unstyled">
-                {[one, three, ten].map((img, idx) => {
+                {[one, three, six].map((img, idx) => {
                   const product = allProducts.find(p => p.image === img);
                   return (
                     <div key={idx}>

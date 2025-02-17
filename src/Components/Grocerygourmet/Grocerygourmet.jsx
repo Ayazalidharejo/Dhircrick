@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/papaya.jpg";
+import two from "../images/freshpapaya.jpg";
+import three from "../images/tamato.jpg";
+import four from "../images/patato.jpg";
+import five from "../images/greenchilecheese.jpg";
+import six from "../images/gracerystock.jpg";
+import saven from "../images/orange.jpg";
+import eight from "../images/strawbery.jpg";
+import nine from "../images/tamato.jpg";
+import ten from "../images/lays.jpg";
+import onee from "../images/fish.jpg";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:61, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:62, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:63, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:64, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:65, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:66, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:67, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:68, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:69, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:70, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:71, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:61, name: "papaya", price: "$12.99", category: "Grocery", image: one },
+  {id:62, name: "freshpapaya", price: "$9.99", category: "Grocery", image: two },
+  {id:63, name: "fresh tamato", price: "$19.99", category: "Grocery", image: three },
+  {id:64, name: "fresh patato", price: "$9.99", category: "Grocery", image: four },
+  {id:65, name: "greenchilecheese", price: "$36.88", category: "Grocery", image: five, discount: "-8%" },
+  {id:66, name: "gracerystock", price: "$9.99", category: "Grocery", image: six },
+  {id:67, name: "Fresh orange", price: "$12.99", category: "Grocery", image: saven },
+  {id:68, name: "strawbery", price: "$9.99", category: "Grocery", image: eight },
+  {id:69, name: "tamato fresh", price: "$19.99", category: "Grocery", image: nine },
+  {id:70, name: "lays,spice", price: "$9.99", category: "Grocery", image: onee },
+  {id:71, name: "fish fresh", price: "$36.88", category: "Grocery", image: ten, discount: "-8%" },
 ];
 
 const Grocerygourmet = () => {

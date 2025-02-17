@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/b.jpg";
+import two from "../images/b1.jpg";
+import three from "../images/b4.jpg";
+import four from "../images/b.jpg";
+import five from "../images/b3.jpg";
+import six from "../images/b1.jpg";
+import saven from "../images/b5.jpg";
+import eight from "../images/b1.jpg";
+import nine from "../images/b.jpg";
+import ten from "../images/b.jpg";
+import onee from "../images/b4.jpg";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:39, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:40, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:41, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:42, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:43, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:44, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:45, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:46, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:47, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:48, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:49, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:39, name: "Clipart pro", price: "$12.99", category: "Baby product", image: one },
+  {id:40, name: "baby niddle", price: "$9.99", category: "Baby product", image: two },
+  {id:41, name: "baby cloths", price: "$19.99", category: "Baby product", image: three },
+  {id:42, name: "baby pampers", price: "$9.99", category: "Baby product", image: four },
+  {id:43, name: "baby niddle", price: "$36.88", category: "Baby product", image: five, discount: "-8%" },
+  {id:44, name: "baby feder", price: "$9.99", category: "Baby product", image: six },
+  {id:45, name: "baby bike ", price: "$12.99", category: "Baby product", image: saven },
+  {id:46, name: "Clipart pro", price: "$9.99", category: "Baby product", image: eight },
+  {id:47, name: "baby niddle", price: "$19.99", category: "Baby product", image: nine },
+  {id:48, name: "baby cloths", price: "$9.99", category: "Baby product", image: onee },
+  {id:49, name: "baby niddle", price: "$36.88", category: "Baby product", image: ten, discount: "-8%" },
 ];
 
 const Babyproduct = () => {

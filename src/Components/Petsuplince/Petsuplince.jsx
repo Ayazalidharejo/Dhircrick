@@ -6,17 +6,15 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+
+import four from "../images/d1.png";
+import five from "../images/d5.png";
+import six from "../images/d6.png";
+import saven from "../images/d2.png";
+import eight from "../images/d7.png";
+import nine from "../images/d4.png";
+import ten from "../images/f.jpg";
+import onee from "../images/d3.png";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +39,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:105 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:106, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:107, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:108, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:109, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:110, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:111, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:112, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id: 113, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:114, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:115, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:105 , name: " Pet Supplies Images ", price: "$12.99", category: " Pet Supplies", image: nine },
+  {id:106, name: "Animal Pet Supplies ", price: "$9.99", category: " Pet Supplies", image: four },
+  {id:107, name: "Pet  Cats  Dogs Line ", price: "$19.99", category: " Pet Supplies", image: eight },
+  {id:108, name: "Pet hair cle", price: "$9.99", category: " Pet Supplies", image: four },
+  {id:109, name: "pets foods in the box", price: "$36.88", category: " Pet Supplies", image: five, discount: "-8%" },
+  {id:110, name: "animals,food", price: "$9.99", category: " Pet Supplies", image: six },
+  {id:111, name: "animals,food", price: "$12.99", category: " Pet Supplies", image: saven },
+  {id:112, name: "pets foood", price: "$9.99", category: " Pet Supplies", image: eight },
+  {id: 113, name: "pet fight case cage", price: "$19.99", category: " Pet Supplies", image: nine },
+  {id:114, name: "animals,belt", price: "$9.99", category: " Pet Supplies", image: onee },
+  {id:115, name: "pets,food", price: "$36.88", category: " Pet Supplies", image: ten, discount: "-8%" },
 ];
 
 const Petsuplince = () => {
@@ -146,7 +144,7 @@ const Petsuplince = () => {
               </div>
               <h5 className="mt-4 text-black">TOP RATED PRODUCTS</h5>
               <ul className="list-unstyled">
-                {[one, three, ten].map((img, idx) => {
+                {[four, six, ten].map((img, idx) => {
                   const product = allProducts.find(p => p.image === img);
                   return (
                     <div key={idx}>

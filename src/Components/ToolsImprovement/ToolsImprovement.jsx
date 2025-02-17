@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/smallhamer.jpg";
+import two from "../images/bighamer.jpg";
+import three from "../images/pipewrench.jpg";
+import four from "../images/scroo.png";
+import five from "../images/newtool.jpg";
+import six from "../images/rangekit.jpg";
+import saven from "../images/cuurtplas.jpg";
+import eight from "../images/drial.jpg";
+import nine from "../images/adjustbletool.jpg";
+import ten from "../images/lockkit.jpg";
+import onee from "../images/smallhamer.jpg";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:138 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:139, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:140 , name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:141, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:142, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:143, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:144, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:145, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:146, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:147, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:148, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:138 , name: "smallhamer", price: "$12.99", category: "ToolsImprovement", image: one },
+  {id:139, name: "bighamer", price: "$9.99", category: "ToolsImprovement", image: two },
+  {id:140 , name: "pipewrench", price: "$19.99", category: "ToolsImprovement", image: three },
+  {id:141, name: "scroo", price: "$9.99", category: "ToolsImprovement", image: four },
+  {id:142, name: "newtool", price: "$36.88", category: "ToolsImprovement", image: five, discount: "-8%" },
+  {id:143, name: "cuurtplas", price: "$9.99", category: "ToolsImprovement", image: six },
+  {id:144, name: "drial", price: "$12.99", category: "ToolsImprovement", image: saven },
+  {id:145, name: "adjustbletool", price: "$9.99", category: "ToolsImprovements", image: eight },
+  {id:146, name: "lockkit", price: "$19.99", category: "ToolsImprovement", image: nine },
+  {id:147, name: "smallhamer", price: "$9.99", category: "ToolsImprovement", image: onee },
+  // {id:148, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
 ];
 
 const ToolsImprovement = () => {

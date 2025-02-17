@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/toyplastic.png";
+import two from "../images/lidugame.png";
+import three from "../images/footballball.jpg";
+import four from "../images/gamechase.png";
+import five from "../images/tennisgame.jpg";
+import six from "../images/plastictoy.png";
+import saven from "../images/b5.jpg";
+import eight from "../images/handlergame.png";
+import nine from "../images/toykids.jpg";
+import ten from "../images/softtoy.jpg";
+import onee from "../images/gamingremote.jpg";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:149 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:150, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:151, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:152, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:153, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:154, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:155, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:156, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:157, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:158, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:159, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:149 , name: "toy plastic", price: "$12.99", category: "Toy and Games", image: one },
+  {id:150, name: "lidu game", price: "$9.99", category: "Toy and Games", image: two },
+  {id:151, name: "foot ballball", price: "$19.99", category: "Toy and Games", image: three },
+  {id:152, name: "game chase", price: "$9.99", category: "Toy and Games", image: four },
+  {id:153, name: "tennis game", price: "$36.88", category: "Toy and Games", image: five, discount: "-8%" },
+  {id:154, name: "plastic toy", price: "$9.99", category: "Toy and Games", image: six },
+  {id:155, name: "kids bike", price: "$12.99", category: "Toy and Games", image: saven },
+  {id:156, name: "handler game", price: "$9.99", category: "Toy and Games", image: eight },
+  {id:157, name: "toy kids", price: "$19.99", category: "Toy and Games", image: nine },
+  {id:158, name: "soft toy", price: "$9.99", category: "Toy and Games", image: onee },
+  {id:159, name: "gaming remote", price: "$36.88", category: "Toy and Games", image: ten, discount: "-8%" },
 ];
 
 const Toyandgames = () => {

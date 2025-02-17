@@ -6,17 +6,19 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/kichenfrezer.jpg";
+import two from "../images/kichenScissors.jpg";
+import three from "../images/kichenoven.jpg";
+import four from "../images/knife.jpg";
+import five from "../images/Gaskit.jpg";
+import six from "../images/foodmaker.jpg";
+import saven from "../images/than.png";
+import thre from "../images/kichenoven.jpg";
+import fou from "../images/knife.jpg";
+import fiv from "../images/Gaskit.jpg";
+import si from "../images/foodmaker.jpg";
+import save from "../images/than.png";
+
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +43,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:72 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:73 , name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:74 , name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:75 , name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
+  {id:72 , name: "kichen frezer", price: "$12.99", category: "Home & Kitchen", image: one },
+  {id:73 , name: "kichen Scissors", price: "$9.99", category: "Home & Kitchen", image: two },
+  {id:74 , name: "kichen oven", price: "$19.99", category: "Home & Kitchen", image: three },
+  {id:75 , name: "knife", price: "$9.99", category: "Home & Kitchen", image: four },
   {id: 76, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:77 , name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id: 78, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:79 , name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id: 80, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id: 81, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id: 82, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:77 , name: "Gaskit", price: "$9.99", category: "Home & Kitchen", image: six },
+  {id: 78, name: "foodmaker", price: "$12.99", category: "Home & Kitchen", image: saven },
+  {id:79 , name: "kichen oven", price: "$9.99", category: "Home & Kitchen", image: thre },
+  {id: 80, name: "Knife", price: "$19.99", category: "Home & Kitchen", image: fou },
+  {id: 81, name: "gas kit", price: "$9.99", category: "Home & Kitchen", image: fiv },
+  {id: 82, name: "foodmaker", price: "$36.88", category: "Home & Kitchen", image: si, discount: "-8%" },
 ];
 
 const Homeandkichen = () => {
@@ -146,7 +148,7 @@ const Homeandkichen = () => {
               </div>
               <h5 className="mt-4 text-black">TOP RATED PRODUCTS</h5>
               <ul className="list-unstyled">
-                {[one, three, ten].map((img, idx) => {
+                {[one, three, thre].map((img, idx) => {
                   const product = allProducts.find(p => p.image === img);
                   return (
                     <div key={idx}>

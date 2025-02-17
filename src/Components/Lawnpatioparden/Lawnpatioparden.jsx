@@ -6,17 +6,19 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/gracecuteer.jpg";
+import two from "../images/grassleaf.jpg";
+import three from "../images/hammock.jpg";
+import four from "../images/l.jpg";
+import five from "../images/l1.jpg";
+import six from "../images/l2.jpg";
+import onee from "../images/gracecuteer.jpg";
+import twoe from "../images/grassleaf.jpg";
+import securty from "../images/securtywair.jpg";
+import foure from "../images/l.jpg";
+import fivee from "../images/l1.jpg";
+import sixe from "../images/l2.jpg";
+
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +43,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:83, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:84, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:85, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:86, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:87, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:88, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:89, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:90, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:91, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:92, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:93, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:83, name: "grace cuteer", price: "$12.99", category: "Lawn,Garden", image: one },
+  {id:84, name: "grass leaf", price: "$9.99", category: "Lawn,Garden", image: two },
+  {id:85, name: "hammock", price: "$19.99", category: "Lawn,Garden", image: three },
+  {id:86, name: "Grace foot", price: "$9.99", category: "Lawn,Garden", image: four },
+  {id:87, name: "Grace cutter", price: "$36.88", category: "Lawn,Garden", image: five, discount: "-8%" },
+  {id:88, name: "Grace cutter", price: "$9.99", category: "Lawn,Garden", image: six },
+  {id:89, name: "grace cuteer", price: "$12.99", category: "Lawn,Garden", image: onee },
+  {id:90, name: "grass leaf", price: "$9.99", category: "Lawn,Garden", image: twoe },
+  {id:91, name: "hammock", price: "$19.99", category: "Lawn,Garden", image: three },
+  {id:92, name: "grace cuteer", price: "$9.99", category: "Lawn,Garden", image: one },
+  {id:93, name: "securty wair", price: "$36.88", category: "Lawn,Garden", image: securty, discount: "-8%" },
 ];
 
 const Lawnpatioparden = () => {
@@ -146,7 +148,7 @@ const Lawnpatioparden = () => {
               </div>
               <h5 className="mt-4 text-black">TOP RATED PRODUCTS</h5>
               <ul className="list-unstyled">
-                {[one, three, ten].map((img, idx) => {
+                {[one, six, two].map((img, idx) => {
                   const product = allProducts.find(p => p.image === img);
                   return (
                     <div key={idx}>

@@ -6,17 +6,17 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
+import one from "../images/w.jpg";
+import two from "../images/w1.jpg";
+import three from "../images/w2.jpg";
+import four from "../images/w3.jpg";
+import five from "../images/w4.jpg";
+import six from "../images/w5.jpg";
+import saven from "../images/w6.jpg";
+import eight from "../images/w7.jpg";
+import nine from "../images/w8.jpg";
 import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import onee from "../images/w.jpg";
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:50, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:51, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id:52, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:53, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:54, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:55, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:56, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:57, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:58, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:59, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:60, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:50, name: "beauty nail", price: "$12.99", category: "Beauty produuct", image: one },
+  {id:51, name: "face loshion", price: "$9.99", category: "Beauty produuct", image: two },
+  {id:52, name: "make up brash", price: "$19.99", category: "Beauty produuct", image: three },
+  {id:53, name: "Nail polish", price: "$9.99", category: "Beauty produuct", image: four },
+  {id:54, name: "Kitchen in the box", price: "$36.88", category: "Beauty produuct", image: five, discount: "-8%" },
+  {id:55, name: "parum kit", price: "$9.99", category: "Beauty produuct", image: six },
+  {id:56, name: "winter losion", price: "$12.99", category: "Beauty produuct", image: saven },
+  {id:57, name: "foot losion", price: "$9.99", category: "Beauty produuct", image: eight },
+  {id:58, name: "parfum", price: "$19.99", category: "Beauty produuct", image: nine },
+  {id:59, name: "might losion", price: "$9.99", category: "Beauty produuct", image: onee },
+  {id:60, name: "Face wash", price: "$36.88", category: "Beauty produuct", image: ten, discount: "-8%" },
 ];
 
 const Beautyproduct = () => {

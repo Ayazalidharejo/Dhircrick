@@ -6,17 +6,16 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // Import product images
-import one from "../images/babycream11.png";
-import two from "../images/babycream11.png";
-import three from "../images/babycream11.png";
-import four from "../images/babycream11.png";
-import five from "../images/babycream11.png";
-import six from "../images/babycream11.png";
-import saven from "../images/saven.jpg";
-import eight from "../images/saven.jpg";
-import nine from "../images/saven.jpg";
-import ten from "../images/saven.jpg";
-import onee from "../images/than.png";
+import one from "../images/laptop.jpg";
+import two from "../images/chair.jpg";
+import three from "../images/punchmachine.jpg";
+import four from "../images/pen.jpg";
+import five from "../images/chair1.jpg";
+import six from "../images/calculator.jpg";
+import saven from "../images/mouse.jpg";
+import eight from "../images/keyboard.jpg";
+import nine from "../images/officetesk.jpg";
+
 import Footer from "../Footer/Footer";
 
 import "./Style.css";
@@ -41,17 +40,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:94 , name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Home & Kitchen", image: one },
-  {id:95, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Home & Kitchen", image: two },
-  {id: 96, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Home & Kitchen", image: three },
-  {id:97, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Home & Kitchen", image: four },
-  {id:98, name: "Kitchen in the box", price: "$36.88", category: "Home & Kitchen", image: five, discount: "-8%" },
-  {id:99, name: "iBayam Kitchen Shears", price: "$9.99", category: "Home & Kitchen", image: six },
-  {id:100, name: "KIMIUP Kitchen Cutting", price: "$12.99", category: "Beauty Products", image: saven },
-  {id:101, name: "Zulay Kitchen Silicone", price: "$9.99", category: "Beauty Products", image: eight },
-  {id:102, name: "Sunnecko Heavy Duty Kitchen", price: "$19.99", category: "Beauty Products", image: nine },
-  {id:103, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
-  {id:104, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
+  {id:94 , name: "laptop 6th Gen", price: "$12.99", category: "Office product", image: one },
+  {id:95, name: "office chair", price: "$9.99", category: "Office product", image: two },
+  {id: 96, name: "punch machine", price: "$19.99", category: "Office product", image: three },
+  {id:97, name: "pen new product", price: "$9.99", category: "Office product", image: four },
+  {id:98, name: "chair new brand", price: "$36.88", category: "Office product", image: five, discount: "-8%" },
+  {id:99, name: "calculator", price: "$9.99", category: "Office product", image: six },
+  {id:100, name: "computer mouse", price: "$12.99", category: "Office product", image: saven },
+  {id:101, name: "keyboard", price: "$9.99", category: "Office product", image: eight },
+  {id:102, name: "office tesk", price: "$19.99", category: "Office product", image: nine },
+  // {id:103, name: "LekDrok 10 Inch Microwave Food", price: "$9.99", category: "Beauty Products", image: onee },
+  // {id:104, name: "Kitchen in the box", price: "$36.88", category: "Beauty Products", image: ten, discount: "-8%" },
 ];
 
 const Officeproducts = () => {
@@ -146,7 +145,7 @@ const Officeproducts = () => {
               </div>
               <h5 className="mt-4 text-black">TOP RATED PRODUCTS</h5>
               <ul className="list-unstyled">
-                {[one, three, ten].map((img, idx) => {
+                {[one, three, six].map((img, idx) => {
                   const product = allProducts.find(p => p.image === img);
                   return (
                     <div key={idx}>

@@ -116,18 +116,18 @@
 
 
 import React, { useState, useEffect } from "react";
-import babycream from "../images/babycream11.png";
+import babycream from "../images/chair1.jpg";
 import bottle from "../images/kk.png";
 import cream from "../images/saven.jpg";
 import fan from "../images/m.jpg";
 import botle from "../images/saven.jpg";
 import botle2 from "../images/kk.png";
-import botle3 from "../images/babycream11.png";
-import sampo from "../images/m.jpg";
-import sampo1 from "../images/babycream11.png";
-import sampo2 from "../images/saven.jpg";
-import sampo3 from "../images/f.jpg";
-import sampo4 from "../images/babycream11.png";
+import botle3 from "../images/calculator.jpg";
+import sampo from "../images/chair.jpg";
+import sampo1 from "../images/foodmaker.jpg";
+import sampo2 from "../images/adjustbletool.jpg";
+import sampo3 from "../images/Gaskit.jpg";
+import sampo4 from "../images/b5.jpg";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../Slice/Slice";
 import { ToastContainer, toast } from 'react-toastify';
@@ -135,17 +135,17 @@ import { Tooltip } from "@mui/material";
 import "./Style.css";
 
 const products = [
-  { id: 28, name: "TREL Mini Handheld Stroller Fan", category: "Baby Products", price: 29.99, image: fan, hoverImage: bottle },
-  { id: 29, name: "Douxo S3 PYO Pads 30 Count fan", category: "Pet Supplies", price: 14.99, image: cream, hoverImage: sampo1 },
-  { id: 30, name: "OLLY Ultra Strength Goodbye Stress", category: "Supplements", price: 56.00, image: bottle, hoverImage: sampo2 },
-  { id: 31, name: "Matys Multipurpose Baby Ointment", category: "Baby Products", price: 14.99, image: babycream, hoverImage: sampo3 },
-  { id: 32, name: "Baby Diaper Rash Cream", category: "Baby Products", price: 10.99, image: botle, hoverImage: sampo4 },
-  { id: 33, name: "Dog Chew Toy", category: "Pet Supplies", price: 8.99, image: botle2, hoverImage: fan },
-  { id: 34, name: "Fitness Tracker", category: "Supplements", price: 25.99, image: botle3, hoverImage: cream },
-  { id: 35, name: "Protein Powder", category: "Supplements", price: 49.99, image: babycream, hoverImage: bottle },
-  { id: 36, name: "Dog Shampoo", category: "Pet Supplies", price: 12.99, image: fan, hoverImage: sampo2 },
-  { id: 37, name: "Vitamins for Kids", category: "Supplements", price: 18.99, image: sampo, hoverImage: babycream },
-  { id: 38, name: "Vitamins for Kids", category: "tools and", price: 18.99, image: sampo, hoverImage: babycream },
+  { id: 28, name: "wash bason", category: "Tools", price: 29.99, image: fan, hoverImage: fan, },
+  { id: 29, name: "face wash cream", category: "Beauty product", price: 14.99, image: cream,hoverImage: cream,  },
+  { id: 30, name: "kichen kit", category: "Home kichen", price: 56.00, image: bottle, hoverImage: bottle,  },
+  { id: 31, name: "Chair", category: "Office Product", price: 14.99, image: babycream,hoverImage: babycream,  },
+  { id: 32, name: "Face wash", category: "Beauty Products", price: 10.99, image: botle, hoverImage: botle,  },
+  { id: 33, name: "Kichen set", category: "Home kichen", price: 8.99, image: botle2,hoverImage: botle2, },
+  { id: 34, name: "Calculator", category: "Office product", price: 25.99, image: botle3,hoverImage: botle3, },
+  { id: 35, name: "new modal chair", category: "Office product", price: 49.99, image: babycream,hoverImage: babycream,  },
+  { id: 36, name: "Sink cock", category: "tools", price: 12.99, image: fan, },
+  { id: 37, name: "New modal chair", category: "Office product", price: 18.99, image: sampo,hoverImage: sampo,  },
+  { id: 38, name: "Gas kit", category: "Home and kichen", price: 18.99, image: sampo1 ,hoverImage: sampo1  },
 ];
 
 const uniqueCategories = ["All", ...new Set(products.map(p => p.category))];
