@@ -64,9 +64,15 @@ import React from "react";
 import "./Hero.css"; // Custom CSS for additional styling
 
 // Mobile images
-import image1 from "../Components/images/mbl-banners-1.webp";
-import image2 from "../Components/images/mbl-banners-2.webp";
-import image3 from "../Components/images/mbl-banners-3.webp";
+import image1 from "../Components/images/mob1.jpg";
+import image2 from "../Components/images/mob2.jpg";
+import image3 from "../Components/images/mob3.jpg";
+
+///Laptop
+import image4 from "../Components/images/laptop1.jpg";
+import image5 from "../Components/images/laptop2.jpg";
+import image6 from "../Components/images/laptop03.jpg";
+
 
 const Herosection = () => {
   return (
@@ -105,17 +111,17 @@ const Herosection = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <a href="/HomeKitchen">
-              <img className="d-block w-100 hero-image" src="https://dhircrickllc.com/wp-content/uploads/2025/01/banners-1.webp" alt="Desktop Banner 1" />
+              <img className="d-block w-100 hero-image" src={image4} alt="Desktop Banner 1" />
             </a>
           </div>
           <div className="carousel-item">
             <a href="/HomeKitchen">
-              <img className="d-block w-100 hero-image" src="https://dhircrickllc.com/wp-content/uploads/2025/01/banners-3.webp" alt="Desktop Banner 2" />
+              <img className="d-block w-100 hero-image" src={image5} alt="Desktop Banner 2" />
             </a>
           </div>
           <div className="carousel-item">
             <a href="/Petsuplince">
-              <img className="d-block w-100 hero-image" src="https://dhircrickllc.com/wp-content/uploads/2025/01/banners-2.webp" alt="Desktop Banner 3" />
+              <img className="d-block w-100 hero-image" src={image6} alt="Desktop Banner 3" />
             </a>
           </div>
         </div>

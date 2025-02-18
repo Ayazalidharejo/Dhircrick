@@ -19,40 +19,40 @@ const Footer = () => {
           <div className="col-md-2">
             <h5 className="mb-3">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white text-decoration-none my-3">Home</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Shop</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Cart</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Checkout</a></li>
-              <li><a href="#" className="text-white fw-bold  text-decoration-none my-3">Contact us</a></li>
+              <li><a href="/" className="text-white text-decoration-none my-3">Home</a></li>
+              <li><a href="/Shop" className="text-white  text-decoration-none my-3">Shop</a></li>
+              <li><a href="/Babyproduct" className="text-white  text-decoration-none my-3">Cart</a></li>
+              <li><a href="/Checkout" className="text-white  text-decoration-none my-3">Checkout</a></li>
+              <li><a href="/ContactForm" className="text-white fw-bold  text-decoration-none my-3">Contact us</a></li>
             </ul>
           </div>
           <div className="col-md-2">
             <h5 className="mb-3">Info Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white  text-decoration-none my-3">Return Policy</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Privacy Policy</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">About us</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Wishlist</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Compare</a></li>
+              <li><a href="/ReturnPolicy" className="text-white  text-decoration-none my-3">Return Policy</a></li>
+              <li><a href="/Privacy" className="text-white  text-decoration-none my-3">Privacy Policy</a></li>
+              <li><a href="/AboutUs" className="text-white  text-decoration-none my-3">About us</a></li>
+              <li><a href="/Favirate" className="text-white  text-decoration-none my-3">Wishlist</a></li>
+              <li><a href="/Compare" className="text-white  text-decoration-none my-3">Compare</a></li>
             </ul>
           </div>
           <div className="col-md-2">
             <h5 className="mb-3">Top Categories</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white  text-decoration-none my-3">Home & Kitchen</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Baby Products</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Toys & Games</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Office Products</a></li>
+              <li><a href="/HomeKitchen" className="text-white  text-decoration-none my-3">Home & Kitchen</a></li>
+              <li><a href="/Babyproduct" className="text-white  text-decoration-none my-3">Baby Products</a></li>
+              <li><a href="/Toyandgames" className="text-white  text-decoration-none my-3">Toys & Games</a></li>
+              <li><a href="/Officeproducts" className="text-white  text-decoration-none my-3">Office Products</a></li>
             </ul>
           </div>
           <div className="col-md-3">
             <h5 className="mb-3">Account Details</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white  text-decoration-none my-3">Dashboard</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Orders</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Downloads</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Addresses</a></li>
-              <li><a href="#" className="text-white  text-decoration-none my-3">Login/Logout</a></li>
+              <li><a href="/Deshboard" className="text-white  text-decoration-none my-3">Dashboard</a></li>
+              <li><a href="/Deshboard" className="text-white  text-decoration-none my-3">Orders</a></li>
+              <li><a href="/Deshboard" className="text-white  text-decoration-none my-3">Downloads</a></li>
+              <li><a href="/Deshboard" className="text-white  text-decoration-none my-3">Addresses</a></li>
+              <li><a href="/Deshboard" className="text-white  text-decoration-none my-3">Login/Logout</a></li>
             </ul>
           </div>
         </div>

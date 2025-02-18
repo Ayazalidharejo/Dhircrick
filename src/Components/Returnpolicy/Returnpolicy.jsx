@@ -40,7 +40,7 @@ const ReturnPolicy = () => {
         <p>If you need to exchange an item, please follow the return process and place a new order for the replacement item.</p>
         <h2>Damaged or Defective Items</h2>
         <p>
-          If you receive a damaged or defective item, please contact us immediately at <a href="mailto:info@dhircrickllc.com">info@dhircrickllc.com</a>. We will arrange for a replacement or refund.
+          If you receive a damaged or defective item, please contact us immediately at <a href="mailto:Pyxis.info@gmail.com">Pyxis.info@gmail.com</a>. We will arrange for a replacement or refund.
         </p>
       </div>
     </div>

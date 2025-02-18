@@ -4,7 +4,7 @@ import "./Style.css"
 
 
 
-const AboutUs = () => {
+const Privacy = () => {
   return (
     <>
     
@@ -13,8 +13,8 @@ const AboutUs = () => {
     <div className="container-fluid p-0">
       {/* Header Section */}
       <div className="maine text-white text-center py-5">
-        <h1>About us</h1>
-        <p>HOME / ABOUT US</p>
+        <h1>Privacy Policy</h1>
+        <p>HOME / Privacy Policy</p>
       </div>
 
       {/* Content Section */}
@@ -38,7 +38,7 @@ const AboutUs = () => {
             </p>
             <p>
               For inquiries or assistance, feel free to contact us at
-              <a href="Pyxis.info@gmail.com"> Pyxis.info@gmail.com</a>.
+              <a href="mailto:Pyxis.info@gmail.com"> Pyxis.info@gmail.com</a>.
             </p>
           </div>
         </div>
@@ -49,4 +49,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Privacy;

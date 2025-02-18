@@ -29,6 +29,9 @@ import Checkout from "./Components/Checkoutpage/Checkout";
 import Favirate from "./Components/Faviratepage/Favirate";
 import Compare from "./Components/Comparepage/Compare";
 import ProductGrid from "./Components/Products/Products";
+import Shop from "./Components/Shop/Shop";
+import Deshboard from "./Components/Dashboard/Deshboard";
+import Privacy from "./Components/PrivtyPolice/Privacy";
 
 
 function App() {
@@ -145,6 +148,22 @@ function App() {
           path: "/ProductGrid",
          
           element:  <ProductGrid />   ,
+        },
+  
+        {
+          path: "/Shop",
+         
+          element:  <Shop />   ,
+        },
+        {
+          path: "/Deshboard",
+         
+          element:  <Deshboard />   ,
+        },
+        {
+          path: "/Privacy",
+         
+          element:  <Privacy />   ,
         },
   
         
