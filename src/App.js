@@ -3,7 +3,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {store} from "./Store/Store"
-
+import "./App.css"
+import { Helmet } from 'react-helmet';
 
 import { Provider } from "react-redux";
 import Mainepage from "./Components/MainehomeSection/Parentmainesection";
@@ -154,7 +155,9 @@ function App() {
 
   return (
     <div className="App">
-    
+      <Helmet>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
+      </Helmet>
       <Provider store={store}>
         <RouterProvider router={router} />
         

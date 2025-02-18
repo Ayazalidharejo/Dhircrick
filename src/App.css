@@ -13,3 +13,11 @@
   font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
   font-style: normal;  /* Replace with 'italic' if you need italic text */
 }
+
+/* In your index.css or any global CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Applying Montserrat font to the body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}

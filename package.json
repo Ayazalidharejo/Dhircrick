@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
@@ -26,6 +27,7 @@
     "sweetalert2": "^11.16.1",
     "swiper": "^11.2.4",
     "toastify-js": "^1.12.0",
+    "typeface-montserrat": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

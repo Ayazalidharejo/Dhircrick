@@ -1,0 +1,58 @@
+.hero-section {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  
+
+  /* .hero-section {
+    max-width: 50%;
+    overflow: hidden;
+  } */
+  
+  .hero-image {
+    width: 100%;
+    object-fit: cover;
+    height: auto;  /* Default height setting */
+  }
+  
+  /* For screens 480px or smaller */
+  /* @media (max-width: 480px) {
+    .hero-image {
+      height: 480px;  
+    }
+  }
+   */
+
+   .hero-section {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    object-fit: cover;
+    height: auto; /* Adjust the image height as needed */
+  }
+  
+  /* For screens larger than or equal to 768px (md and above) */
+  @media (min-width: 768px) {
+    /* For large screen images */
+    .d-none.d-md-block {
+      display: block !important; /* Show large screen images */
+    }
+  }
+  
+  /* For screens smaller than 768px */
+  @media (max-width: 767px) {
+    /* For small screen images */
+    .d-block.d-md-none {
+      display: block !important; /* Show small screen images */
+    }
+  }
+  

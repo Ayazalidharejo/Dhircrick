@@ -18,3 +18,20 @@
     background-image: url('../images/logo.png'); /* Image on hover */
   }
   
+
+  /* Importing the fonts */
+/* Importing the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global selector for applying the fonts */
+* {
+  font-family: 'Roboto', sans-serif; /* Default font for all elements */
+}
+
+/* Applying Montserrat font to the body */
+.body {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
+  font-style: normal;  /* Replace with 'italic' if you need italic text */
+}

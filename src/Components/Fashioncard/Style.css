@@ -1,104 +1,114 @@
-/* .category-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+/* 
+
+.product-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  transform: translate(-50%, -50%);
+}
+
+
+.product-card:hover .overlay {
+  opacity: 1;
+  width: 60%;
+  height: 70%;
+  border-color: rgb(204, 202, 202);
+}
+
+
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
   }
-  
-  .category-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 5px solid transparent;  
-    border-radius: 10px;
-    transition: border 0.3s ease-in-out;
- 
+}
+
+
+@media (max-width: 1199px) {
+  .col-md-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
   }
-  
- 
-  
-  .overlay {
-     position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+}
 
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    z-index: 1000;
+
+@media (max-width: 767px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
-  
-  .category-card:hover .overlay {
-    opacity: 1;
+}
+
+
+@media (max-width: 480px) {
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
-  
-  .div{
-    background-color: #000;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-   
-  }
-  .image-wrapper{
-    position: relative;
-  }
-
-  
-  .forborder:hover {
-    border: 5px solid #38c71b !important; 
-  }
-  
+}
 
 
+.container {
+  padding: 0 15px;
+}
 
-  .product-card {
-    position: relative;
-    width: 300px;
-    overflow: hidden;
-  }
-  
-  .product-image {
-    width: 100%;
-    display: block;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
- 
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    border: 2px solid transparent;
-    transform: translate(-50%, -50%);
-  }
-  
-  .product-card:hover .overlay {
-    opacity: 1;
-    width: 60%;
-    height: 70%;
-    border-color: rgb(204, 202, 202);
-  }
-  
-  .product-card:hover .product-image {
-    transform: scale(1.1);
-  }
-   */
+
+.overlay {
+  display: none;
+}
+
+
+.product-card:hover .overlay {
+  display: flex;
+}
+
+
+.image-wrapper {
+  position: relative;
+}
+
+
+.forborder:hover {
+  border: 5px solid #38c71b !important; 
+}
+
+
+ */
 
 
 
@@ -109,16 +119,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-   /* Ensures the product card adjusts smoothly */
+/* Ensures the product card adjusts smoothly */
 .product-card {
   position: relative;
   width: 100%;
@@ -132,7 +133,7 @@
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* Overlay style */
@@ -154,7 +155,7 @@
   transform: translate(-50%, -50%);
 }
 
-/* Product card hover effect: scaling and revealing overlay */
+/* Product card hover effect */
 .product-card:hover .overlay {
   opacity: 1;
   width: 60%;
@@ -165,6 +166,12 @@
 /* Product image hover effect: slight zoom */
 .product-card:hover .product-image {
   transform: scale(1.1);
+}
+
+/* Border hover effect */
+.forborder:hover {
+  border: 5px solid #38c71b !important;
+  transition: 1000ms; /* Green border on hover */
 }
 
 /* Responsive Styles */
@@ -219,9 +226,4 @@
 /* Additional touch-up on the image wrapper */
 .image-wrapper {
   position: relative;
-}
-
-/* Ensure borders are responsive */
-.forborder:hover {
-  border: 5px solid #38c71b !important; /* Green border on hover */
 }

@@ -22,13 +22,15 @@ import Discountproduct from "../Discoutproduct/Discountproduct";
 import CustomerReviews from "../../Custumerreview/Custumerreview";
 import Footer from "../Footer/Footer";
 import Catagory from "../Faltu/Catagory";
+import Herosection from "../../Herosection/Herosection";
+// import Navbar from "../Navbar/Navbar";
 
 
 const Parentmainesection = () => {
   return (
     <>
-    <div>
-      {/* Swiper for medium and larger screens */}
+    {/* <div>
+      Swiper for medium and larger screens
       <div className="d-none d-md-block">
         <Swiper
           spaceBetween={0}
@@ -37,11 +39,11 @@ const Parentmainesection = () => {
           loop={true}
           modules={[Autoplay]}
         >
-          {/* Slide 1 */}
+          Slide 1
           <SwiperSlide>
             <div className="container-fluid banner">
               <div className="row align-items-center" style={{ minHeight: '500px' }}>
-                {/* Left Content */}
+                Left Content
                 <div className="col-lg-6 col-md-6 col-sm-12 text-white text-section pt-3 d-flex align-items-center flex-column">
                   <h1 className="fw-bold text-center heading">Discover The New Items!</h1>
                   <div className="row d-flex align-items-center justify-content-center">
@@ -49,7 +51,7 @@ const Parentmainesection = () => {
                       <p className="mb- text-center fs-5 ps-5 mb- pt-4 para">
                         Discover quality items at <strong>P Y X I S</strong>, your go-to store for all needs.
                         <a href="#" className="link-light d-block text-center w-100 ps- mt-">
-                        {/* info@nyiy346.com */}
+                        info@nyiy346.com
                       </a>
                       </p>
                      
@@ -62,7 +64,7 @@ const Parentmainesection = () => {
                     </div>
                   </div>
                 </div>
-                {/* Right Image */}
+                Right Image
                 <div className="col-lg-6 col-md-6 col-sm-12 text-center">
                   <img style={{height:"500px",width:"650px"}} src={hero} alt="Special Offer" className=" product-image" />
                 </div>
@@ -70,11 +72,11 @@ const Parentmainesection = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 */}
+          Slide 2
           <SwiperSlide>
             <div className="container-fluid banner">
               <div className="row align-items-center" style={{ minHeight: '500px' }}>
-                {/* Left Content */}
+                Left Content
                 <div className="col-lg-6 col-md-6 col-sm-12 text-white text-section pt-3 d-flex align-items-center flex-column">
                   <h2 className="fw-bold text-center heading">Special Deals Just For You!</h2>
                   <div className="row d-flex align-items-center">
@@ -82,7 +84,7 @@ const Parentmainesection = () => {
                       <p className=" text-center fs-5 ps-5 ">
                         Get the best deals on high-quality products now at <strong>P Y X I S</strong>.
                         <a href="#" className="link-light d-block text-center w-100 ps- mt-">
-                        {/* info@nyiy346.com */}
+                        info@nyiy346.com
                       </a>
                       </p>
                       
@@ -95,7 +97,7 @@ const Parentmainesection = () => {
                     </div>
                   </div>
                 </div>
-                {/* Right Image */}
+                Right Image
                 <div className="col-lg-6 col-md-6 col-sm-12 text-center">
                   <img src={hero2} alt="Special Offer" className="img-fluid product-image" />
                 </div>
@@ -111,7 +113,7 @@ const Parentmainesection = () => {
 
 
 
-      {/* Swiper for small screens (below md) */}
+      Swiper for small screens (below md)
       <div className="d-block d-md-none">
         <Swiper
           spaceBetween={10}
@@ -120,8 +122,8 @@ const Parentmainesection = () => {
           loop={true}
           modules={[Autoplay]}
         >
-          {/* Slide 1 for small screens */}
-          {/* <SwiperSlide>
+           Slide 1 for small screens 
+           <SwiperSlide>
             <div className="container-fluid banner">
               <div className="row align-items-center" style={{ minHeight: '300px' }}>
                
@@ -147,11 +149,11 @@ const Parentmainesection = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide> 
           <SwiperSlide>
             <div className="container-fluid banner">
               <div className="row align-items-center" style={{ minHeight: '300px' }}>
-                {/* Left Content */}
+                 Left Content 
                 <div className="col-lg-6 col-md-6 col-sm-12 text-white text-section d-flex align-items-center flex-column">
                   <h2 className="fw-bold text-center heading py-3">Discover The <br /> New Items!
                   
@@ -161,7 +163,7 @@ const Parentmainesection = () => {
                       <p className=" text-center  para ms-1 ">
                         Get the best deals on high-quality products now at <strong>PYXIS <br />
                     
-                        {/* info@nyiy346.com */}
+                        info@nyiy346.com
                      
                         </strong>.
                         
@@ -186,11 +188,11 @@ const Parentmainesection = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 for small screens */}
+          Slide 2 for small screens
           <SwiperSlide>
             <div className="container-fluid banner">
               <div className="row align-items-center" style={{ minHeight: '300px' }}>
-                {/* Left Content */}
+                Left Content
                 <div className="col-lg-6 col-md-6 col-sm-12 text-white text-section d-flex align-items-center flex-column">
                   <h2 className="fw-bold text-center heading py-3">Discover The <br /> New Items!
                   
@@ -200,7 +202,7 @@ const Parentmainesection = () => {
                       <p className=" text-center  para ms- ">
                         Get the best deals on high-quality products now at <strong>PYXIS <br />
                     
-                        {/* info@nyiy346.com */}
+                        info@nyiy346.com
                      
                         </strong>.
                         
@@ -226,8 +228,13 @@ const Parentmainesection = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </div>
-    {/* <Fashioncards/> */}
+    </div> */}
+
+
+   
+    {/* <Navbar/> */}
+    <Herosection/>
+    <Fashioncards/>
     <ProductGrid/>
     <Simplecard/>
     <Catagory/>

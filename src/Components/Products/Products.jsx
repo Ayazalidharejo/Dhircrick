@@ -170,7 +170,7 @@ const ProductGrid = () => {
   );
 
   return (
-    <div className="container my-4">
+    <div className="container my-4 body">
       {/* <h2 className="text-center">NEW ARRIVALS</h2> */}
 
       {/* Search input */}

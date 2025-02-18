@@ -239,23 +239,23 @@ const handleProductClick = (product) => {
 
 
             <Link className="text-decoration-none d-flex  align-items-center" to="/">
-              <img style={{ width: "60px", height: "70px" }} src={image} alt="Logo" />
+              <img style={{ width: "60px", height: "50px" }} src={image} alt="Logo" />
               <span className="me-1 fw-bold text-black">PYXIS</span>
             </Link>
           </div>
 
           <div className="collapse navbar-collapse">
             {/* Desktop Search with Category Dropdown Inside Input */}
-            <div className="d-none d-md-flex search-category align-items-center ms-aut w-100 b border px-1">
+            <div className="d-none d-md-flex search-category align-items-center ms-aut w-75 ms-5 b border px-1">
               {/* <input className="form-control me-2 w-100 ms-1 border-0" type="search" placeholder="Search for products" aria-label="Search" /> */}
              
              
              
              
-              <div className="container mt-3 position-relative pb-2 ">
+              <div className="container  position-relative  ">
       {/* Search Input */}
       <input   style={{ outline: "none", border: "none" }}
-        className="form-contro w-100 border-0  mdscreens"
+        className="form-contro w-100  border-0  mdscreens"
         type="search"
         placeholder="Search for products"
         aria-label="Search"
@@ -312,7 +312,7 @@ const handleProductClick = (product) => {
   <li><Link className="dropdown-item" to="/Petsuplince">Pet Supplies</Link></li>
 </ul>
               </div>
-              <Icon className="border searchicon m-1 bg-primary text-white px-1" icon="bitcoin-icons:search-filled" />
+              <Icon height={35} className="border searchicon  bg-primary text-white " icon="bitcoin-icons:search-filled" />
             </div>
 
             <ul className="navbar-nav ms-auto d-flex align-items-center">
