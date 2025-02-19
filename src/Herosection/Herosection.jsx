@@ -64,14 +64,15 @@ import React from "react";
 import "./Hero.css"; // Custom CSS for additional styling
 
 // Mobile images
-import image1 from "../Components/images/mob1.jpg";
-import image2 from "../Components/images/mob2.jpg";
-import image3 from "../Components/images/mob3.jpg";
+// Mobile images
+import image1 from "../Components/images//mobile1.png";
+import image2 from "../Components/images/mobile2.png";
+import image3 from "../Components/images/mobile3.png";
 
 ///Laptop
-import image4 from "../Components/images/laptop1.jpg";
-import image5 from "../Components/images/laptop2.jpg";
-import image6 from "../Components/images/laptop03.jpg";
+import image4 from "../Components/images/laptop33.png";
+import image5 from "../Components/images/laptop22.png";
+import image6 from "../Components/images/laptop11.png";
 
 
 const Herosection = () => {

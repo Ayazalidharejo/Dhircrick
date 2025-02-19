@@ -10,31 +10,31 @@ const CustomerReviews = () => {
     {
       rating: 4.5,
       title: "Great Variety of Products!",
-      text: "Dhir Crick LLC offers an amazing selection across so many categories. I've found everything I need here, and the quality never disappoints!",
+      text: "WORLDWISE TRADINGLLoffers an amazing selection across so many categories. I've found everything I need here, and the quality never disappoints!",
       verified: true,
     },
     {
       rating: 5,
       title: "Excellent Makeup Collection",
-      text: "The selection at Dhir Crick LLC is unmatched, and everything I've ordered has been high quality. It's a one-stop shop for all my needs!",
+      text: "The selection at WORLDWISE TRADINGLL is unmatched, and everything I've ordered has been high quality. It's a one-stop shop for all my needs!",
       verified: true,
     },
     {
       rating: 5,
       title: "Fast Shipping",
-      text: "Dhir Crick LLC customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
+      text: "WORLDWISE TRADINGLL customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
       verified: true,
     },
     {
       rating: 5,
       title: "Fast Shipping",
-      text: "Dhir Crick LLC customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
+      text: "WORLDWISE TRADINGLL customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
       verified: true,
     },
     {
       rating: 5,
       title: "Fast Shipping",
-      text: "Dhir Crick LLC customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
+      text: "WORLDWISE TRADINGLL customer support team is incredibly helpful and responsive. My orders arrive quickly, and I'm always impressed with the items!",
       verified: true,
     },
   ];

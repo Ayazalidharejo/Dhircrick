@@ -16,7 +16,7 @@ const ReturnPolicy = () => {
       </div>
       <div className="container py-5">
         <p>
-          At Dhir Crick LLC, we strive to ensure your satisfaction with every purchase. If you are not completely satisfied, we offer a straightforward return process.
+          At WORLDWISE TRADINGLL, we strive to ensure your satisfaction with every purchase. If you are not completely satisfied, we offer a straightforward return process.
         </p>
         <h2>Return Eligibility</h2>
         <ul>
@@ -26,7 +26,7 @@ const ReturnPolicy = () => {
         </ul>
         <h2>How to Return an Item</h2>
         <ol>
-          <li>Contact our customer service team at <a href="mailto:mr bean@gmail.com">info@dhircrickllc.com</a> to initiate a return.</li>
+          <li>Contact our customer service team at <a href="mailto:worldwisetradingllc.info@gmail.com">worldwisetradingllc.info@gmail.com</a> to initiate a return.</li>
           <li>Include your order number, the item(s) you wish to return, and the reason for the return.</li>
           <li>We will provide you with a return authorization and instructions on how to send the item back to us.</li>
         </ol>
@@ -40,7 +40,7 @@ const ReturnPolicy = () => {
         <p>If you need to exchange an item, please follow the return process and place a new order for the replacement item.</p>
         <h2>Damaged or Defective Items</h2>
         <p>
-          If you receive a damaged or defective item, please contact us immediately at <a href="mailto:Pyxis.info@gmail.com">Pyxis.info@gmail.com</a>. We will arrange for a replacement or refund.
+          If you receive a damaged or defective item, please contact us immediately at <a href="mailto:worldwisetradingllc.info@gmail.com">worldwisetradingllc.info@gmail.com</a>. We will arrange for a replacement or refund.
         </p>
       </div>
     </div>

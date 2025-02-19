@@ -22,23 +22,23 @@ const AboutUs = () => {
         <div className="row d-flex justify-content-center">
           <div className="col-md-10">
             <p>
-              Welcome to <strong>P Y X I S</strong>, your trusted destination for a diverse range of high-quality products. Located in Baytown, Texas,P Y X I S LLC is more than just a store; it's a community hub where customer satisfaction meets exceptional value.
+              Welcome to <strong>WORLDWISE TRADINGLL</strong>, your trusted destination for a diverse range of high-quality products. Located in Baytown, Texas,WORLDWISE TRADING,LL is more than just a store; it's a community hub where customer satisfaction meets exceptional value.
             </p>
             <p>
               We specialize in offering a wide variety of products across multiple niches to cater to the diverse needs of our customers. From home essentials and kitchenware to tech gadgets and lifestyle accessories, we have something for everyone.
             </p>
             <p>
-              At P Y X I S, our mission is to provide an unparalleled shopping experience by delivering top-notch products and exceptional customer service. We believe in building lasting relationships with our customers by understanding their needs and exceeding their expectations.
+              At WORLDWISETRADINGLL, our mission is to provide an unparalleled shopping experience by delivering top-notch products and exceptional customer service. We believe in building lasting relationships with our customers by understanding their needs and exceeding their expectations.
             </p>
             <p>
               Our team is committed to sourcing the best products from trusted suppliers, ensuring that every item in our store meets our stringent quality standards. We constantly update our inventory to bring you the latest trends and innovations.
             </p>
             <p>
-              Thank you for choosing P Y X I S. We look forward to serving you and making your shopping experience delightful and rewarding.
+              Thank you for choosing WORLDWISETRADINGLL. We look forward to serving you and making your shopping experience delightful and rewarding.
             </p>
             <p>
               For inquiries or assistance, feel free to contact us at
-              <a href="Pyxis.info@gmail.com"> Pyxis.info@gmail.com</a>.
+              <a href="worldwisetradingllc.info@gmail.com"> worldwisetradingllc.info@gmail.com</a>.
             </p>
           </div>
         </div>

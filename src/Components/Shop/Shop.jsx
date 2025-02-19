@@ -41,17 +41,17 @@ const categories = [
 
 // Products Data
 const allProducts = [
-  {id:39, name: "Clipart pro", price: "$12.99", category: "Baby product", image: one },
-  {id:40, name: "baby niddle", price: "$9.99", category: "Baby product", image: two },
-  {id:41, name: "baby cloths", price: "$19.99", category: "Baby product", image: three },
-  {id:42, name: "baby pampers", price: "$9.99", category: "Baby product", image: four },
-  {id:43, name: "baby niddle", price: "$36.88", category: "Baby product", image: five, discount: "-8%" },
-  {id:44, name: "baby feder", price: "$9.99", category: "Baby product", image: six },
-  {id:45, name: "baby bike ", price: "$12.99", category: "Baby product", image: saven },
-  {id:46, name: "Clipart pro", price: "$9.99", category: "Baby product", image: eight },
-  {id:47, name: "baby niddle", price: "$19.99", category: "Baby product", image: nine },
-  {id:48, name: "baby cloths", price: "$9.99", category: "Baby product", image: onee },
-  {id:49, name: "baby niddle", price: "$36.88", category: "Baby product", image: ten, discount: "-8%" },
+  {id:239, name: "Clipart pro", price: "$12.99", category: "Baby product", image: one },
+  {id:240, name: "baby niddle", price: "$9.99", category: "Baby product", image: two },
+  {id:241, name: "baby cloths", price: "$19.99", category: "Baby product", image: three },
+  {id:242, name: "baby pampers", price: "$9.99", category: "Baby product", image: four },
+  {id:243, name: "baby niddle", price: "$36.88", category: "Baby product", image: five, discount: "-8%" },
+  {id:244, name: "baby feder", price: "$9.99", category: "Baby product", image: six },
+  {id:245, name: "baby bike ", price: "$12.99", category: "Baby product", image: saven },
+  {id:246, name: "Clipart pro", price: "$9.99", category: "Baby product", image: eight },
+  {id:247, name: "baby niddle", price: "$19.99", category: "Baby product", image: nine },
+  {id:248, name: "baby cloths", price: "$9.99", category: "Baby product", image: onee },
+  {id:249, name: "baby niddle", price: "$36.88", category: "Baby product", image: ten, discount: "-8%" },
 ];
 
 const Shop = () => {

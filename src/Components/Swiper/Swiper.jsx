@@ -190,7 +190,7 @@ function Swipere() {
           <Grid item xs={12} sm={8} md={9}>
             <span className="texts d-flex text-center fs-6">KITCHEN ITEMS</span>
             <p className="text-center text-white">
-              Discover a world of luxury and indulgence with Dhir Crick LLC
+              Discover a world of luxury and indulgence with WORLDWISE TRADINGLL
               <br />
               premium selection of kitchen essentials.
             </p>

@@ -81,8 +81,8 @@ const handleProductClick = (product) => {
           {/* Logo and Home Link */}
           <div className="d-flex align-items-center mb-3">
             <Link className="text-decoration-none d-flex flex-column align-items-center" to="/">
-              <img className="border" style={{ width: "100px", height: "120px" }} src={image} alt="Logo" />
-              <span>PYXIS</span>
+              <img className="" style={{ width: "100px", height: "120px" }} src={image} alt="Logo" />
+              <span className="ms-2">WORLDWISETRADING</span>
             </Link>
           </div>
           <div>
@@ -240,7 +240,7 @@ const handleProductClick = (product) => {
 
             <Link className="text-decoration-none d-flex  align-items-center" to="/">
               <img style={{ width: "60px", height: "50px" }} src={image} alt="Logo" />
-              <span className="me-1 fw-bold text-black">PYXIS</span>
+              <span className="me-1 fw-bold text-black">WWTL</span>
             </Link>
           </div>
 
