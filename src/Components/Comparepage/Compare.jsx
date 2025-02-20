@@ -99,7 +99,7 @@ const Favirate = () => {
     <>
       <div className="text-white py-">
         <div className="container-fuild main">
-          <div className="background headings py-5 ">
+          <div className="backgroundcolor headings py-5 ">
             <div className="d-flex align-items-center justify-content-center ">
               <KeyboardBackspaceIcon />
               <h1 className="ms-3 textmaine pt-3">Compare</h1>
@@ -109,25 +109,10 @@ const Favirate = () => {
             <div className="text-center">  
               <a className="text-decoration-none text-white" href="/">   <span>Home</span></a> / <span>Compare</span>
               </div>
-            {/* Category Links Section
-            <div className="d-flex justify-content-center align-items-center text-center py-2">
-              <ul className="list-unstyled d-flex flex-wrap justify-content-center align-items-center text-center ">
-                {categories.map((category, index) => (
-                  <li
-                    key={index}
-                    className="my-2 mx-2 col-12 col-sm-6 col-md-3 col-lg-2 catogarynames"
-                  >
-                    <Link to={category.link} className="text-decoration-none">
-                      <span className="productname">{category.name}</span> <br />
-                      <span className="colorer">{category.products} {category.cat}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div> */}
+           
           </div>
 
-          {/* Sidebar and Product Grid using Material UI Grid */}
+        
        
         </div>
       </div>
@@ -141,12 +126,14 @@ const Favirate = () => {
         <h2 className="mt-3">Compare list is empty.</h2>
         <p>You don’t have any products in the wishlist yet.</p>
         <p>You will find a lot of interesting products on our "Shop" page.</p>
-        <a href="/HomeKitchen" className="btn btn-primary">
+        <a style={{
+          backgroundColor:"#7e0926"
+        }} href="/HomeKitchen" className="btn  my-2 text-white">
           RETURN TO SHOP
         </a>
       </div>
     </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

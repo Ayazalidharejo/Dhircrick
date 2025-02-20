@@ -11,8 +11,8 @@ const ReturnPolicy = () => {
    
     <div className="container-fluid p-0">
       <div className="maine text-white text-center py-5">
-        <h1>Return Policy</h1>
-        <p>HOME / RETURN POLICY</p>
+        <h1>Shipping Policy</h1>
+        <p>HOME / Shipping Policy</p>
       </div>
       <div className="container py-5">
         <p>
@@ -44,7 +44,7 @@ const ReturnPolicy = () => {
         </p>
       </div>
     </div>
-   < Footer/>
+   {/* < Footer/> */}
     </>
   );
 };

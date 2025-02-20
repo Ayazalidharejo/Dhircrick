@@ -18,14 +18,13 @@ import nine from "../images/saven.jpg";
 import ten from "../images/saven.jpg";
 import onee from "../images/than.png";
 import Footer from "../Footer/Footer";
-import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import { Grid, TextField, Button, Typography, Box, Checkbox, FormControlLabel } from "@mui/material";
 import "./Deshboard.css";
 
 import { addProduct } from "../Slice/Slice";
 import { useDispatch } from "react-redux";
 
-// Categories Data with links for each category
+
 const categories = [
   { name: "Baby Products", products: 14, cat: "Product", link: "/Babyproduct" },
   { name: "Beauty Products", products: 11, cat: "Product", link: "/Beautyproduct" },
@@ -56,19 +55,19 @@ const allProducts = [
 ];
 
 const Deshboard = () => {
-  const [priceRange, setPriceRange] = useState(70); // Default max price is 70
+  const [priceRange, setPriceRange] = useState(70); 
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
-  const [columnsPerRow, setColumnsPerRow] = useState(4); // Default number of columns per row is 4
-  const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
+  const [columnsPerRow, setColumnsPerRow] = useState(4); 
+  const [selectedCategory, setSelectedCategory] = useState(""); 
 
   const dispatch = useDispatch();
 
-  // Function to handle range input and filter products
+  
   const handlePriceChange = (event) => {
     const rangeValue = event.target.value;
     setPriceRange(rangeValue);
 
-    // Filter products based on price range
+  
     const filtered = allProducts.filter((product) => {
       const price = parseFloat(product.price.replace('$', ''));
       return price <= rangeValue;
@@ -82,7 +81,7 @@ const Deshboard = () => {
     const category = event.target.value;
     setSelectedCategory(category);
 
-    // Filter products based on selected category
+  
     const filteredByCategory = category
       ? allProducts.filter((product) => product.category === category)
       : allProducts;
@@ -90,7 +89,7 @@ const Deshboard = () => {
     setFilteredProducts(filteredByCategory);
   };
 
-  // Function to handle column change based on button click
+
   const handleColumnChange = (newColumns) => {
     setColumnsPerRow(newColumns);
   };
@@ -99,7 +98,7 @@ const Deshboard = () => {
     <>
       <div className="text-white py-">
         <div className="container-fuild main">
-          <div className="background headings py-5 ">
+          <div className="background bg-black headings py-5 ">
             <div className="d-flex align-items-center justify-content-center ">
               <KeyboardBackspaceIcon />
               <h1 className="ms-3 textmaine pt-3">My ACCOUNT</h1>
@@ -109,25 +108,11 @@ const Deshboard = () => {
             <div className="text-center">  
               <a className="text-decoration-none text-white" href="/">   <span>Home</span></a> / <span>My ACCOUNT</span>
               </div>
-            {/* Category Links Section
-            <div className="d-flex justify-content-center align-items-center text-center py-2">
-              <ul className="list-unstyled d-flex flex-wrap justify-content-center align-items-center text-center ">
-                {categories.map((category, index) => (
-                  <li
-                    key={index}
-                    className="my-2 mx-2 col-12 col-sm-6 col-md-3 col-lg-2 catogarynames"
-                  >
-                    <Link to={category.link} className="text-decoration-none">
-                      <span className="productname">{category.name}</span> <br />
-                      <span className="colorer">{category.products} {category.cat}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div> */}
+           
+         
           </div>
 
-          {/* Sidebar and Product Grid using Material UI Grid */}
+       
        
         </div>
       </div>
@@ -141,7 +126,7 @@ const Deshboard = () => {
           <TextField fullWidth label="Username or email address" required margin="normal" />
           <TextField fullWidth label="Password" type="password" required margin="normal" />
           <FormControlLabel control={<Checkbox />} label="Remember me" />
-          <Button fullWidth variant="contained" sx={{ mt: 2, backgroundColor: "#3f51b5" }}>
+          <Button fullWidth  className="btn-color text-white" sx={{ mt: 2 }}>
             LOG IN
           </Button>
           <Typography variant="body2" sx={{ mt: 1, textAlign: "center", color: "blue", cursor: "pointer" }}>
@@ -151,18 +136,18 @@ const Deshboard = () => {
 
         {/* Register Section */}
         <Grid item xs={12} md={6} sx={{ textAlign: "center", borderLeft: { md: "1px solid #ddd" } }}>
-          <Typography variant="h5" fontWeight="bold">
+          <Typography  fontWeight="bold">
             REGISTER
           </Typography>
           <Typography variant="body2" sx={{ mt: 1, mb: 2 }}>
             Registering for this site allows you to access your order status and history. Just fill in the fields below,
             and we'll get a new account set up for you in no time.
           </Typography>
-       <a href="/Signup">    <Button variant="contained">REGISTER</Button> </a>
+       <a href="/Signup">    <Button className=" btn-color text-white">REGISTER</Button> </a>
         </Grid>
       </Grid>
     </Box>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -20,4 +20,9 @@
 /* Applying Montserrat font to the body */
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 100vh;
 }
+/* 
+.customcolor{
+  background-color: #7e0926;
+} */

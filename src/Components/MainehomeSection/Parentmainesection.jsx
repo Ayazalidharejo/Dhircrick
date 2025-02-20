@@ -23,6 +23,7 @@ import CustomerReviews from "../../Custumerreview/Custumerreview";
 import Footer from "../Footer/Footer";
 import Catagory from "../Faltu/Catagory";
 import Herosection from "../../Herosection/Herosection";
+import Map from "../Mapingsection/Map";
 // import Navbar from "../Navbar/Navbar";
 
 
@@ -244,7 +245,8 @@ const Parentmainesection = () => {
     <FoodSection/>
     <Discountproduct/>
     <CustomerReviews/>
-    <Footer/>
+    <Map/>
+    {/* <Footer/> */}
     </>
   );
 };

@@ -62,17 +62,17 @@
 
 import React from "react";
 import "./Hero.css"; // Custom CSS for additional styling
-
+import { Rating } from "@mui/material";
 // Mobile images
 // Mobile images
-import image1 from "../Components/images//mobile1.png";
-import image2 from "../Components/images/mobile2.png";
-import image3 from "../Components/images/mobile3.png";
+import image1 from "../Components/images/web1.png";
+import image2 from "../Components/images/web2.png";
+import image3 from "../Components/images/web3.png";
 
 ///Laptop
-import image4 from "../Components/images/laptop33.png";
-import image5 from "../Components/images/laptop22.png";
-import image6 from "../Components/images/laptop11.png";
+import image4 from "../Components/images/web1.png";
+import image5 from "../Components/images/web2.png";
+import image6 from "../Components/images/web3.png";
 
 
 const Herosection = () => {
@@ -135,6 +135,18 @@ const Herosection = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
+
+    <div className="text-center mt-3 d-flex align-items-center justify-content-center">
+      <h3>Excellent</h3>
+      <div className="flex items-center">
+        {/* MUI Rating component with value of 4.5 */}
+        <Rating name="read-only" value={4.5} readOnly precision={0.5} />
+      </div>
+      <span>Based on 354 reviews</span>
+    </div>
+
+
     </>
   );
 };

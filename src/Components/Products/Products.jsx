@@ -171,18 +171,14 @@ const ProductGrid = () => {
 
   return (
     <div className="container my-4 body">
-      {/* <h2 className="text-center">NEW ARRIVALS</h2> */}
-
-      {/* Search input */}
-      {/* <div className="d-flex justify-content-center mb-4">
-        <input
-          type="text"
-          placeholder="Search for products..."
-          className="form-control w-50"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div> */}
+      <h2 className="text-center">Featured Products</h2>
+<div className="text-tenter">
+  <ol className=" d-flex text-center justify-content-center list-unstyled">
+    <li className="mx-2 ">Best Sellers
+   </li>
+   <li> New Arrivals</li>
+  </ol>
+</div>
 
       {/* Product Grid */}
       <div className="row">
@@ -190,8 +186,8 @@ const ProductGrid = () => {
           <div key={product.id} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
             <div className="card shadow-sm border-0 d-flex align-items-center">
               {/* Hoverable product image */}
-              <div className="product-img-container">
-                <img
+              <div style={{maxWidth:"160px",minWidth:"160px",maxHeight:"160px",minHeight:"160px"}}  className="product-img-container ">
+                <img  
                   className="product-image"
                   src={product.image}
                   alt={product.name}
@@ -199,7 +195,7 @@ const ProductGrid = () => {
                   onMouseLeave={(e) => e.target.src = product.image}      // Mouse leave event to revert to the original image
                 />
               </div>
-              <div className="card-body text-center">
+              <div  style={{width:"300px"}} className="card-body text-center ">
                 <Tooltip title={product.name} placement="top-start">
                   <h6 className="card-title">
                     {product.name.length > 10 ? product.name.slice(0, 10) + "..." : product.name}
@@ -209,7 +205,8 @@ const ProductGrid = () => {
                 <h5 className="text-black">${product.price.toFixed(2)}</h5>
                 <button
                   onClick={() => dispatch(addProduct(product, toast))}
-                  className="btn btn-primary w-100"
+                  className="btncolor btn-responsive w-md-75 w-sm-25"
+
                 >
                   ADD TO CART
                 </button>

@@ -1,170 +1,3 @@
-// import React from 'react';
-// // Import Swiper React components
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-
-// // import required modules
-// import { Pagination, Autoplay } from 'swiper/modules';
-
-// import image from "../images/saven.jpg";
-// import logo from "../images/than.png";
-// import "./Style.css";
-
-// function Swipere() {
-//   return (
-//     <>
-//       <div className='maine rounded-2 py-5 '>
-//         <div className='container'>
-//           <div className='d-flex justify-content-between container align-items-center px-5 mb-3'>
-//             <img className='' style={{ height: "240px" }} src={logo} alt="" />
-//             <div className='ms-5'>
-//               <span className='texts '>KITCHEN ITEMS</span>
-//               <p className='text-center text-white'>Discover a world of luxury and indulgence with Dhir Crick LLC <br /> premium selection of kitchen essentials.</p>
-//             </div>
-//           </div>
-
-//           <div>
-//             <Swiper
-//               pagination={true}       // Enable pagination
-//               modules={[Pagination, Autoplay]}  // Import Pagination and Autoplay modules
-//               className="mySwiper"
-//               slidesPerView={6}       // Show 6 images at once
-//               spaceBetween={10}       // Space between slides (optional)
-//               autoplay={{             // Enable autoplay
-//                 delay: 2500,          // Delay between each slide (in milliseconds)
-//                 disableOnInteraction: false,  // Don't stop autoplay on interaction
-//               }}
-//             >
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/HomeKitchen" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 1" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Officeproducts" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 2" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Toyandgames" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 3" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Petsuplince" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 4" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Beautyproduct" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 5" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Babyproduct" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 6" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Grocerygourmet" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 7" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/ToolsImprovement" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 8" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//               <SwiperSlide className='mx-5 d-flex align-items-center'>
-//                 <a href="/Sportsandoutdoor" className='text-decoration-none'>
-//                   <div className='bg-white text-center'>
-//                     <img style={{ width: "200px", height: "200px" }} src={image} alt="Product 9" />
-//                     <span className='text-black'>name product</span>
-//                     <br />
-//                     <span className='text-black' style={{ opacity: 0.6 }}>Category</span>
-
-//                     <br />
-//                     <span className='text-primary fw-bold'>Price $201</span>
-//                   </div>
-//                 </a>
-//               </SwiperSlide>
-//             </Swiper>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Swipere;
-
 
 
 
@@ -175,7 +8,14 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { Grid, Box } from "@mui/material";
 
-import image from "../images/saven.jpg";
+import image1 from "../images/Gaskit.jpg";
+import image2 from "../images/mouse.jpg";
+import image3 from "../images/toykids.jpg";
+import image4 from "../images/d2.png";
+import image5 from "../images/w6.jpg";
+import image6 from "../images/b4.jpg";
+import image7 from "../images/tamato.jpg";
+import image8 from "../images/adjustbletool.jpg";
 import logo from "../images/than.png";
 import "./Style.css";
 
@@ -211,29 +51,29 @@ function Swipere() {
           autoplay={{ delay: 2500, disableOnInteraction: false }}
         >
           {[
-            { name: "Home & Kitchen", path: "/HomeKitchen" },
-            { name: "Office Products", path: "/Officeproducts" },
-            { name: "Toys & Games", path: "/Toyandgames" },
-            { name: "Pet Supplies", path: "/Petsuplince" },
-            { name: "Beauty Products", path: "/Beautyproduct" },
-            { name: "Baby Products", path: "/Babyproduct" },
-            { name: "Grocery & Gourmet", path: "/Grocerygourmet" },
-            { name: "Tools & Improvement", path: "/ToolsImprovement" },
-            { name: "Sports & Outdoor", path: "/Sportsandoutdoor" },
+            { name: "Home & Kitchen", path: "/HomeKitchen",image:image1 },
+            { name: "Office Products", path: "/Officeproducts",image:image2 },
+            { name: "Toys & Games", path: "/Toyandgames",image:image2 },
+            { name: "Pet Supplies", path: "/Petsuplince" ,image:image3},
+            { name: "Beauty Products", path: "/Beautyproduct" ,image:image4},
+            { name: "Baby Products", path: "/Babyproduct" ,image:image5} ,
+            { name: "Grocery & Gourmet", path: "/Grocerygourmet",image:image6 },
+            { name: "Tools & Improvement", path: "/ToolsImprovement",image:image7 },
+            { name: "Sports & Outdoor", path: "/Sportsandoutdoor",image:image8 },
           ].map((product, index) => (
             <SwiperSlide key={index}>
               <a href={product.path} className="text-decoration-none">
                 <Box className="bg-white text-center p-2 shadow-sm rounded">
                   <img
                     style={{ width: "200px", height: "200px", objectFit: "cover" }}
-                    src={image}
+                    src={product.image}
                     alt={product.name}
                   />
                   <span className="text-black d-block fw-bold mt-2">{product.name}</span>
                   <span className="text-black d-block" style={{ opacity: 0.6 }}>
                     Category
                   </span>
-                  <span className="text-primary fw-bold">Price $201</span>
+                  <span className="bcolor fw-bold">Price $201</span>
                 </Box>
               </a>
             </SwiperSlide>

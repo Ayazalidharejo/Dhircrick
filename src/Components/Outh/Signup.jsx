@@ -112,7 +112,7 @@ const Signup = () => {
 
             {error && <div className="alert alert-danger">{error}</div>}
 
-            <button type="submit" className="btn btn-primary text-white w-100">Submit</button>
+            <button type="submit" className="btn-color text-white w-100">Submit</button>
           </form>
           <div className="d-flex justify-content-center">
       <span className="mt-2 text-center">

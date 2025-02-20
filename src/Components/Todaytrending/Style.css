@@ -1,5 +1,5 @@
 .maine{
-    background-color: #3044cf;
+    background-color: #0a0a0a;
 }
 @media screen and (max-width: 480px) {
     .texts {
@@ -16,4 +16,7 @@
 
 .textes{
     color: black;
+}
+.btn-color{
+    background-color: #7e0926;
 }

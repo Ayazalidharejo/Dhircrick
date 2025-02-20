@@ -261,10 +261,10 @@ function Discountproduct() {
               <Typography variant="body2" className="text-black" style={{ opacity: 0.6 }}>
                 Category
               </Typography>
-              <Typography variant="body1" className="text-primary fw-bold">
+              <Typography variant="body1" className="bcolor fw-bold">
                 Price $201
               </Typography>
-              <Button   onClick={() => dispatch(addProduct(product))} variant="contained" color="primary" fullWidth className="mt-2">
+              <Button   onClick={() => dispatch(addProduct(product))} variant="contained"  fullWidth className="mt-2 btn-color">
                 Add to cart
               </Button>
               <span className=' discout position-absolute top-0 start-0'>-8%</span>

@@ -35,3 +35,24 @@
   font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
   font-style: normal;  /* Replace with 'italic' if you need italic text */
 }
+
+.btncolor{
+  background-color: #7e0926;
+  color: white;
+  border: none;
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (min-width: 1280px) { /* For medium screens (1280px and above) */
+  .btn-responsive {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 480px) { /* For medium screens (1280px and above) */
+  .btn-responsive {
+    width: 150px !important;
+  }
+}

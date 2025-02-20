@@ -1,0 +1,7 @@
+
+
+@media (max-width: 480px) { /* For medium screens (1280px and above) */
+    .content {
+        margin-top: 210px !important;
+    }
+  }

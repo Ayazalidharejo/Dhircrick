@@ -32,13 +32,16 @@ import ProductGrid from "./Components/Products/Products";
 import Shop from "./Components/Shop/Shop";
 import Deshboard from "./Components/Dashboard/Deshboard";
 import Privacy from "./Components/PrivtyPolice/Privacy";
+import Scrollbar from "./Components/Scrollbar/Scrollbar";
+import Turms from "./Components/Turms/Turms";
 
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element:   < NavigationBar /> ,
+      element: ( <><Scrollbar/> < NavigationBar /></>)  ,
+
       errorElement: <> <h1> error </h1> </>,
       children: [
         {
@@ -164,6 +167,11 @@ function App() {
           path: "/Privacy",
          
           element:  <Privacy />   ,
+        },
+        {
+          path: "/Turms",
+         
+          element:  <Turms />   ,
         },
   
         

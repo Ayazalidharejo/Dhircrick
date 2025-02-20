@@ -4,12 +4,16 @@
     background-color: aqua;
 }
 .price{
-    color: #3044cf;
+    color: #7e0926 !important;
     font-weight: 700;
 }
 .btns{
-    background-color: #3044cf;
+    background-color: #7e0926 !important;
     font-weight: 700;
     border: none;
     padding: 5px;
+}
+.btn-color{
+    background-color: #7e0926 !important;
+    color: white; 
 }

@@ -96,7 +96,7 @@ const Petsuplince = () => {
     <>
       <div className="text-white py-">
         <div className="container-fuild main">
-          <div className="background headings ">
+          <div className="backgroundcolor headings ">
             <div className="d-flex align-items-center justify-content-center ">
               <KeyboardBackspaceIcon />
               <h1 className="ms-3 textmaine pt-3">Pet Supplies</h1>
@@ -133,7 +133,7 @@ const Petsuplince = () => {
                 value={priceRange}
                 onChange={handlePriceChange}
               />
-              <Button variant="contained" color="primary" className="mt-2">FILTER</Button>
+              <Button  className="mt-2 btn-color text-white">FILTER</Button>
               <p className="text-black">Max Price: ${priceRange}</p>
               <h5 className="mt-4 text-black">STOCK STATUS</h5>
               <div className="text-black">
@@ -168,8 +168,8 @@ const Petsuplince = () => {
                 <div className="d-flex justify-content-center ps-5  hide-xs">
                   <div className="d-flex align-items-center text-black"><span>Show :</span> <span>9 / 12 /18</span></div>
                   {/* <Button onClick={() => handleColumnChange(2)} variant="outlined" className="mx-2"><DragHandleIcon /> </Button> */}
-                  <Button onClick={() => handleColumnChange(4)} variant="outlined" className="mx-2"><MenuIcon /> </Button>
-                  <Button onClick={() => handleColumnChange(6)} variant="outlined" className="mx-2"><MenuIcon /> </Button>
+                  <Button onClick={() => handleColumnChange(4)}  className="mx-2 bcolor"><MenuIcon /> </Button>
+                  <Button onClick={() => handleColumnChange(6)} className="mx-2 bcolor"><MenuIcon /> </Button>
                 </div>
                 <select  
                   className="form-select w-auto responsive-padding"
@@ -197,15 +197,15 @@ const Petsuplince = () => {
                         className="img-fluid imagebg"
                       />
                       {product.discount && (
-                        <span className="badge bg-primary position-absolute">{product.discount}</span>
+                        <span className="badge btn-color-text-white position-absolute">{product.discount}</span>
                       )}
                       <Tooltip title={product.name}>
                         <h6 className="mt-2">
                           {product.name.length > 10 ? `${product.name.slice(0, 10)}...` : product.name}
                         </h6>
                       </Tooltip>
-                      <p className="fw-bold text-primary">{product.price}</p>
-                      <Button onClick={() => dispatch(addProduct(product))} variant="contained" color="primary" className="">Add</Button>
+                      <p className="fw-bold bcolor">{product.price}</p>
+                      <Button onClick={() => dispatch(addProduct(product))}  className="btn-color text-white">Add to cart</Button>
                     </Box>
                   </Grid>
                 ))}
@@ -214,7 +214,7 @@ const Petsuplince = () => {
           </Grid>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

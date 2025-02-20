@@ -1,14 +1,14 @@
-.background{
-    background-color: #3044cf;
+.backgroundcolor{
+    background-color: #000000;
 }
 /* Apply opacity to links */
 ul li a {
     opacity: 0.8;
     transition: opacity 0.3s ease; /* Smooth transition */
+    font-size: 12px;
   }
   
   /* Change opacity on hover */
   ul li a:hover {
     opacity: 1;
   }
-  

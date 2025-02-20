@@ -1,6 +1,6 @@
-.maine{
+/* .maine{
     background-color: #3044cf;
-}
+} */
 @media (max-width: 480px) {
     .texts {
  
@@ -27,4 +27,8 @@
         /* padding-left: 270px; */
         margin-left: 200px;
     }
+}
+
+.bcolor{
+    color: #7e0926;
 }

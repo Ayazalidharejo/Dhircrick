@@ -1,5 +1,5 @@
 import React from 'react';
-
+ import "./Style.css"
 
 const categories = [
   {
@@ -66,7 +66,7 @@ const categories = [
 
 const Catagory = () => {
   return (
-    <div className="container">
+    <div className="container content">
         <h1 className='text-center my-5'>OUR CATEGORIES</h1>
       <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
         {categories.map((category, index) => (

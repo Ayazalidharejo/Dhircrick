@@ -78,12 +78,12 @@ const ContactForm = () => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="btn maine text-white fw-bold w-100">
+          <button type="submit" className="btn maine btn-color my-3 text-white fw-bold w-100">
             Ask a Question
           </button>
         </form>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };

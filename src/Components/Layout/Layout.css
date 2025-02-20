@@ -1,5 +1,11 @@
 @media (max-width: 480px) {
-    .menue {
+  .iconcart{
+    margin-left: 100px !important;
+  } 
+  .linktag{
+    margin-left: 100px !important;
+  }
+  .menue {
       /* flex-direction: column !important;
       align-items: center !important;
       text-align: center !important; */
@@ -18,7 +24,7 @@
     font-size: 45px;
   }
   .bgcolor{
-    background-color: #3044cf;
+    background-color: #7e0926;
   }
 
   .search-results {
@@ -56,4 +62,18 @@
   font-optical-sizing: auto;
   font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
   font-style: normal;  /* Replace with 'italic' if you need italic text */
+}
+
+.maineheaderinputdiv{
+  width: 250px;
+}
+.maineheaderinputdiv button{
+  font-weight: 600;
+}
+
+.inpdiv{
+  border-radius: 10px;
+}
+.badge{
+ color: #7e0926;
 }

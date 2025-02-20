@@ -145,7 +145,7 @@ const Checkout = () => {
                 Sorry, it seems that there are no available payment methods. <br />
                 Please contact us for assistance.
               </div>
-              <button className="btn btn-primary text-white fw-bold w-100" onClick={handleSubmit} disabled={!isFormFilled}>
+              <button className="btn btn-color text-white text-white fw-bold w-100" onClick={handleSubmit} disabled={!isFormFilled}>
                 Place Order
               </button>
             </div>
@@ -154,7 +154,7 @@ const Checkout = () => {
       </div>
     </div>
    
-    <Footer/>
+    
     </>
   );
 };
