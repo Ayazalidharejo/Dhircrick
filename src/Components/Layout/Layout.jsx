@@ -186,7 +186,7 @@ const handleProductClick = (product) => {
             </Link>
 
 
-            <ShoppingCartIcon className="iconcart bcolor d-md-none" />
+            <ShoppingCartIcon onClick={toggleDrawerSidebar}  className="iconcart bcolor d-md-none" />
           
           </div>
           <div className="container mt-3 position-relative inputsfield my-1">

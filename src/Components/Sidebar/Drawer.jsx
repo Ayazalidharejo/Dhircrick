@@ -133,7 +133,7 @@ function MyDrawer(props) {
         {items.length > 0 ? (
   <>
     {/* Total Price */}
-    <div style={{backgroundColor:"#1c5fcc"}} className='d-flex position-absolute bottom-0 start-0  justify-content-between w-100 p-3'>
+    <div className='d-flex position-absolute bottom-0 start-0 btn-color text-white  justify-content-between w-100 p-3'>
       <button className='fs-5 border-0 text-start bg-transparent text-white'>
         Total Price
       </button>
@@ -144,7 +144,7 @@ function MyDrawer(props) {
     <div style={{ width: '100%' }}>
       <Link
         to="/Checkout"
-        className="w-100 my-1 py-2 border-0 fw-bold btn-warming text-center text-decoration-none"
+        className="w-100 my-1 py-2 border-0 fw-bold btn-color text-white text-center text-decoration-none"
         style={{ display: 'block', width: '100%', backgroundColor:"#1c5fcc" }}
         onClick={() => toggleDrawerSidebar(false)} // Close drawer when checkout is clicked
       >
