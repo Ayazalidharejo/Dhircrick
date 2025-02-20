@@ -227,7 +227,7 @@ const handleProductClick = (product) => {
           
           </div>
           <div className="container mt-3 position-relative inputsfield my-1">
-  
+  {/* ////hello mr how are you  */}
   <input
     className="form-control w-100 border-1"
     type="search"
