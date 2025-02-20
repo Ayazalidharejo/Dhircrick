@@ -174,44 +174,7 @@ const handleProductClick = (product) => {
 
             </button>
             
-         
-{/* <div className="container mt-3 position-relative inputsfield">
-  
-      <input
-        className="form-control w-100 border-1"
-        type="search"
-        placeholder="Search for products"
-        aria-label="Search"
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      />
 
-   
-      {searchQuery && (
-        <div className="search-results position-absolute bg-white border rounded mt-1 w-100 shadow-sm">
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map((product, index) => (
-              <div
-                key={index}
-                className="d-flex align-items-center p-2 border-bottom"
-                style={{ cursor: "pointer" }}
-                onClick={() => handleProductClick(product)} 
-              >
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="rounded me-2"
-                  style={{ width: "40px", height: "40px", objectFit: "cover" }}
-                />
-                <span>{product.name}</span>
-              </div>
-            ))
-          ) : (
-            <div className="p-2 text-muted">No matching products</div>
-          )}
-        </div>
-      )}
-    </div> */}
 
 
 
@@ -219,7 +182,7 @@ const handleProductClick = (product) => {
 
             <Link className="text-decoration-none d-flex linktag align-items-center" to="/">
               <img style={{ width: "60px", height: "50px" }} src={image} alt="Logo" />
-              {/* <span className="me-1 fw-bold text-black">WWTL</span> */}
+           
             </Link>
 
 
@@ -227,7 +190,7 @@ const handleProductClick = (product) => {
           
           </div>
           <div className="container mt-3 position-relative inputsfield my-1">
-  {/* ////hello mr how are you  */}
+
   <input
     className="form-control w-100 border-1"
     type="search"
