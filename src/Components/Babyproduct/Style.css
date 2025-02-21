@@ -41,11 +41,11 @@ body {
     .hide-xs {
       display: none !important;
     }
-    .responsive-padding {
+    .responsive {
        margin-left: 80px !important;
        margin-bottom: 20px;
        position: absolute;
-       top: 200px !important;
+       top: 275px !important;
        left: 30px !important;
       }
 

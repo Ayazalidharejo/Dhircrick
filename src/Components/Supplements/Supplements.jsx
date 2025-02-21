@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link, useNavigate } from 'react-router-dom'; // Import Link for navigation
 import { Tooltip, Grid, Box, Button } from "@mui/material";
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -55,6 +55,15 @@ const allProducts = [
 ];
 
 const Supplements = () => {
+  const navigate = useNavigate();
+
+  const handleChange = (event) => {
+    if (event.target.value) {
+      navigate(event.target.value);
+    }
+  };
+
+
   const [priceRange, setPriceRange] = useState(70); // Default max price is 70
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
   const [columnsPerRow, setColumnsPerRow] = useState(4); // Default number of columns per row is 4
@@ -173,18 +182,23 @@ const Supplements = () => {
                   <Button onClick={() => handleColumnChange(4)} className="mx-2 bcolor"><MenuIcon /> </Button>
                   <Button onClick={() => handleColumnChange(6)} className="mx-2 bcolor"><MenuIcon /> </Button>
                 </div>
-                <select  
-                  className="form-select w-auto responsive-padding"
-                  onChange={handleCategoryChange}
-                  value={selectedCategory}
-                >
-                  <option value="">Sort by Category</option>
-                  {categories.map((category, index) => (
-                    <option key={index} value={category.name}>
-                      {category.name}
-                    </option>
-                  ))}
-                </select>
+                <select
+      className="form-select w-auto responsive d-block d-md-none"
+      onChange={handleChange}
+    >
+      <option value="">Sort by Category</option>
+      <option value="/Babyproduct">Baby Products</option>
+      <option value="/Beautyproduct">Beauty Products</option>
+      <option value="/Grocerygourmet">Grocery & Gourmet</option>
+      <option value="/HomeKitchen">Home & Kitchen</option>
+      <option value="/Lawnpatioparden">Lawn, Patio & Garden</option>
+      <option value="/Officeproducts">Office Products</option>
+      <option value="/Petsuplince">Pet Supplies</option>
+      <option value="/Supplements">Supplements</option>
+      <option value="/ToolsImprovement">Tools & Improvement</option>
+      <option value="/Toyandgames">Toys & Games</option>
+      <option value="/Sportsandoutdoor">Sports and Outdoor</option>
+    </select>
               </div>
 
               {/* Product Grid */}

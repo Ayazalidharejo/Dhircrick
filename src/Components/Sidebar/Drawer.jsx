@@ -116,7 +116,7 @@ function MyDrawer(props) {
         <div className='h-100'>
           {items.map((item) => (
             <div className='m-1' key={item.id}> 
-              <img className='rounded-5' style={{ width: "70px" }} src={item.image} alt={item.name} /> 
+              <img className='' style={{ maxHeight:"50px",minHeight:"50px",maxWidth:"60px",minWidth:"60px" }} src={item.image} alt={item.name} /> 
               <Tooltip title={item.name}>
                 <span className='mx-1'>
                   {item.name.length > 10 ? `${item.name.slice(0, 10)}...` : item.name}

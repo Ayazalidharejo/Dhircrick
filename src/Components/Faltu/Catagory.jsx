@@ -6,61 +6,61 @@ const categories = [
     title: 'Baby Products',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/Copy-of-CATEGORIES.png',
-    link: 'Babyproduct/'
+    link: '/Babyproduct'
   },
   {
     title: 'Beauty Products',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-8.png',
-    link: 'Beautyproduct/'
+    link: '/Beautyproduct'
   },
   {
     title: 'Grocery & Gourmet',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-7.png',
-    link: 'Grocerygourmet/'
+    link: '/Grocerygourmet'
   },
   {
     title: 'Home & Kitchen',
 
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-6.png',
-    link: 'HomeKitchen/'
+    link: '/HomeKitchen'
   },
   {
     title: 'Lawn, Patio & Garden',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-5.png',
-    link: 'Lawnpatioparden/'
+    link: '/Lawnpatioparden'
   },
   {
     title: 'Office Products',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-4.png',
-    link: 'Officeproducts/'
+    link: '/Officeproducts'
   },
   {
     title: 'Pet Supplies',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-3.png',
-    link: 'Petsuplince/'
+    link: '/Petsuplince'
   },
   {
     title: 'Supplements',
   
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-1.png',
-    link: 'Supplements/'
+    link: '/Supplements'
   },
   {
     title: 'Tools & Improvement',
    
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-10.png',
-    link: 'ToolsImprovement/',
+    link: '/ToolsImprovement',
   },
   {
     title: 'Toys & Games',
  
     imgSrc: 'https://dhircrickllc.com/wp-content/uploads/2025/01/CATEGORIES-9.png',
-    link: 'Toyandgames/',
+    link: '/Toyandgames',
   },
 ];
 

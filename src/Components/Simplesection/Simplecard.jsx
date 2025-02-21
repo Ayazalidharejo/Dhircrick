@@ -1,8 +1,9 @@
 import React from "react";
-import one from "../images/yourname.png"; // Product image 1
+import one from "../images/you.png"; // Product image 1
 import two from "../images/yourname.png"; // Product image 2
 import imgbg from "../images/bgimg.jpg"; // Single background image
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 const ProductShowcase = () => {
   return (
@@ -28,7 +29,7 @@ const ProductShowcase = () => {
                 height: "100%",
               }}
             >
-              <div className="product-card position-absolute top-50 start-0 translate-middle-y" style={{ width: "53%", height: "100%" }}>
+              <div className="product-card " style={{ width: "100%", height: "100%" }}>
                 <img
                   src={one}
                   alt="BOOTAA 29” LARGE DART BOARD"
@@ -47,13 +48,13 @@ const ProductShowcase = () => {
               className="p-4 d-flex flex-column flex-md-row align-items-center justify-content-between rounded"
               style={{ cursor: "pointer" }}
             >
-              <div className="text-light ms-5">
+              <div className="text-light ms-5 mt-5">
                 <h3 className="fw-bold">You Name It, We Have It</h3>
                 <p className="pgtext">
                   Your go-to destination for a wide range of multi-niche <br /> products right here in the heart of Texas. We are more <br /> than just an online retailer.
                 </p>
 
-                <button className="mt-2 p-2 border-0 shopbtn">SHOP NOW</button>
+           <Link to="/Toyandgames">     <button className="mt-2 p-2 border-0 shopbtn">SHOP NOW</button></Link>
               </div>
             </div>
           </a>
@@ -87,12 +88,12 @@ const ProductShowcase = () => {
           }}
         >
           <div className="product-card position-absolute top-100 start-50 translate-middle" style={{ width: "80%", height: "100%" }}>
-            <img
+            {/* <img
               src={one}
               alt="BOOTAA 29” LARGE DART BOARD"
               className="img-fluid tady"
               style={{ width: "100%", height: "100%" }}
-            />
+            /> */}
           </div>
         </div>
       </a>

@@ -11,4 +11,22 @@ ul li a {
   /* Change opacity on hover */
   ul li a:hover {
     opacity: 1;
+    font-weight: 800;
   }
+
+/* Media query for screens 480px or smaller */
+@media (max-width: 480px) {
+  .copyrights {
+    /* Add your styles for small screens here */
+    text-align: center; /* Example style */
+    font-size: 14px;    /* Example style */
+    margin-top: 20px;   /* Example style */
+    padding: 10px;      /* Example style */
+  }
+}
+@media (min-width: 1280px) {
+  .fotr {
+   /* padding-left: 80px !important; */
+  
+  }
+}

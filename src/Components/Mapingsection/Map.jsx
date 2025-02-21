@@ -54,13 +54,13 @@ const Map = () => {
         <div className="col-md-6 text-center">
           <h5>JOIN OUR NEWSLETTER NOW</h5>
           <p>Be the first to get latest updates, deals, and discounts</p>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center mb-5">
             <input
               type="email"
               placeholder="Your email address"
               className="form-control w-50"
             />
-            <button className="btn-color rounded p-1 ms-2 mb-2">SIGN UP</button>
+            <button className="btn-color rounded p-1 ms-2 ">SIGN UP</button>
           </div>
         </div>
       </div>

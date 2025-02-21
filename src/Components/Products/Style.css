@@ -56,3 +56,18 @@
     width: 150px !important;
   }
 }
+
+
+.btn-custom {
+  background: none;
+  color: gray;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  color: black !important;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}

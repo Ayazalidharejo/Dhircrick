@@ -6,9 +6,7 @@
     margin-left: 100px !important;
   }
   .menue {
-      /* flex-direction: column !important;
-      align-items: center !important;
-      text-align: center !important; */
+     
       margin-left: 50px;
     }
     .navbar-nav li {
@@ -77,3 +75,4 @@
 .badge{
  color: #7e0926;
 }
+
