@@ -1,6 +1,6 @@
 import React from "react";
 
-// import "./Style.css"
+
 
 
 
@@ -11,13 +11,13 @@ const Turms = () => {
    
    
     <div className="container-fluid p-0">
-      {/* Header Section */}
+  
       <div className="maine text-white text-center py-5">
         <h1>Terms of Service</h1>
         <p>HOME / Terms of Service</p>
       </div>
 
-      {/* Content Section */}
+    
       <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-10">

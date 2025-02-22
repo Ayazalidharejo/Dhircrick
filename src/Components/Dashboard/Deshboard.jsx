@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link } from 'react-router-dom'; 
 import { Tooltip } from "@mui/material";
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -147,7 +147,7 @@ const Deshboard = () => {
         </Grid>
       </Grid>
     </Box>
-      {/* <Footer /> */}
+    
     </>
   );
 };

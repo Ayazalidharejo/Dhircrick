@@ -67,19 +67,19 @@ const Lawnpatioparden = () => {
   };
 
 
-  const [priceRange, setPriceRange] = useState(70); // Default max price is 70
+  const [priceRange, setPriceRange] = useState(70); 
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
-  const [columnsPerRow, setColumnsPerRow] = useState(4); // Default number of columns per row is 4
-  const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
+  const [columnsPerRow, setColumnsPerRow] = useState(4);
+  const [selectedCategory, setSelectedCategory] = useState(""); 
 
   const dispatch = useDispatch();
 
-  // Function to handle range input and filter products
+
   const handlePriceChange = (event) => {
     const rangeValue = event.target.value;
     setPriceRange(rangeValue);
 
-    // Filter products based on price range
+   
     const filtered = allProducts.filter((product) => {
       const price = parseFloat(product.price.replace('$', ''));
       return price <= rangeValue;
@@ -88,12 +88,12 @@ const Lawnpatioparden = () => {
     setFilteredProducts(filtered);
   };
 
-  // Function to handle category change
+
   const handleCategoryChange = (event) => {
     const category = event.target.value;
     setSelectedCategory(category);
 
-    // Filter products based on selected category
+  
     const filteredByCategory = category
       ? allProducts.filter((product) => product.category === category)
       : allProducts;
@@ -101,7 +101,7 @@ const Lawnpatioparden = () => {
     setFilteredProducts(filteredByCategory);
   };
 
-  // Function to handle column change based on button click
+
   const handleColumnChange = (newColumns) => {
     setColumnsPerRow(newColumns);
   };
@@ -116,7 +116,7 @@ const Lawnpatioparden = () => {
               <h1 className="ms-3 textmaine pt-3">Lawn, Patio & Garden</h1>
             </div>
 
-            {/* Category Links Section */}
+         
             <div className="d-flex justify-content-center align-items-center text-center py-2">
               <ul className="list-unstyled d-flex flex-wrap justify-content-center align-items-center text-center ">
                 {categories.map((category, index) => (
@@ -134,9 +134,9 @@ const Lawnpatioparden = () => {
             </div>
           </div>
 
-          {/* Sidebar and Product Grid using Material UI Grid */}
+        
           <Grid container spacing={0} mx={0}>
-            {/* Sidebar */}
+          
             <Grid item xs={12} sm={6} md={3} className="bg-light p-4">
               <h5>FILTER BY PRICE</h5>
               <input
@@ -173,7 +173,7 @@ const Lawnpatioparden = () => {
               </ul>
             </Grid>
 
-            {/* Product Grid */}
+
             <Grid item xs={12} md={9}>
               <div className="d-flex justify-content-between align-items-center mt-5">
                 <div className="text-black fw-bold  hide-xs">
@@ -181,7 +181,7 @@ const Lawnpatioparden = () => {
                 </div>
                 <div className="d-flex justify-content-center ps-5  hide-xs">
                   <div className="d-flex align-items-center text-black"><span>Show :</span> <span>9 / 12 /18</span></div>
-                  {/* <Button onClick={() => handleColumnChange(2)} variant="outlined" className="mx-2"><DragHandleIcon /> </Button> */}
+                
                   <Button onClick={() => handleColumnChange(4)}className="mx-2 bcolor"><MenuIcon /> </Button>
                   <Button onClick={() => handleColumnChange(6)}  className="mx-2 bcolor"><MenuIcon /> </Button>
                 </div>
@@ -233,7 +233,7 @@ const Lawnpatioparden = () => {
           </Grid>
         </div>
       </div>
-      {/* <Footer /> */}
+
     </>
   );
 };

@@ -1,17 +1,17 @@
-/* Importing the fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Global selector for applying the fonts */
+
 * {
-  font-family: 'Roboto', sans-serif; /* Default font for all elements */
+  font-family: 'Roboto', sans-serif; 
 }
 
-/* Custom Montserrat Class with weight and style */
+
 body {
   font-family: 'Montserrat', serif;
   font-optical-sizing: auto;
-  font-weight: normal; /* You can replace 'normal' with specific values like 400, 700 etc. */
-  font-style: normal;  /* Replace with 'italic' if you need italic text */
+  font-weight: normal; 
+  font-style: normal;  
 }
 
 .productname{
@@ -34,7 +34,7 @@ body {
     font-size: 50px;
 }
 
-/* Hide the element on xs screens (mobile) */
+
 @media (max-width: 480px) {
     .hide-xs {
       display: none !important;
@@ -68,22 +68,22 @@ body {
     color: white !important;
   }
 
-   /* Custom styling for the range slider track */
+
 .form-range {
   -webkit-appearance: none;
   width: 100%;
   height: 5px;
-  background: #7e0926; /* Apply color to the track */
+  background: #7e0926; 
   border-radius: 5px;
   outline: none;
 }
 
-/* Styling the slider thumb (handle) */
+
 .form-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 15px;
   height: 15px;
-  background: #7e0926; /* Apply color to the thumb */
+  background: #7e0926; 
   border-radius: 50%;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 .form-range::-moz-range-thumb {
   width: 15px;
   height: 15px;
-  background: #7e0926; /* Apply color to the thumb */
+  background: #7e0926;
   border-radius: 50%;
   cursor: pointer;
 }

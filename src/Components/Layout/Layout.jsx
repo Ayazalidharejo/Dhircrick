@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { Icon } from "@iconify/react";
+
 import userIcon from '@iconify-icons/fa-solid/user';
 import heartIcon from '@iconify-icons/fa-solid/heart';
 import exchangeAltIcon from '@iconify-icons/fa-solid/exchange-alt';
@@ -9,10 +9,10 @@ import image from "../images/logo3.png";
 import { Badge, Drawer, IconButton } from "@mui/material";
 import { useSelector } from "react-redux";
 import "./Layout.css";
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+
 
 import { useDispatch } from "react-redux";
-import { setSearchTerm } from "../Slice/Searchturms";
+
 import SigninDrawer from "../Outh/Signin";
 import MyDrawer from "../Sidebar/Drawer";
 import { Icon } from "@iconify/react";
@@ -23,12 +23,11 @@ const NavigationBar = () => {
   
   const dispatch = useDispatch();
 
-  // const handleSearchInputChange = (e) => {
-  //   dispatch(setSearchTerm(e.target.value)); // Dispatch the action to update searchTerm
-  // };
 
 
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false); // State to control drawer visibility
+
+
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleDrawerOpen = () => {
     setIsDrawerOpen(true); // Open the drawer
@@ -86,16 +85,16 @@ const handleProductClick = (product) => {
           <div className="d-flex align-items-center mb-3">
             <Link className="text-decoration-none d-flex flex-column align-items-center" to="/">
               <img className="ms-2" style={{ width: "100px", height: "120px" }} src={image} alt="Logo" />
-              {/* <span className="ms-2">WORLDWISETRADING</span> */}
+             
             </Link>
 
           </div>
           <div>
             <ul className="navbar-na ms-auto d-flex align-items-center list-unstyled">
               <li className="nav-item mx-2">
-                {/* <Link className="text-decoration-none" to="/Signup"> */}
+              
                   <Icon onClick={handleDrawerOpen} className="text-black" icon={userIcon} width={30} />
-                {/* </Link> */}
+             
               </li>
               <li className="nav-item mx-2">
                 <a href="#">
@@ -213,9 +212,9 @@ const handleProductClick = (product) => {
   <SearchIcon className="position-absolute top-50 end-0 translate-middle-y me-4"/>
 </div>
           <div className="collapse navbar-collapse">
-            {/* Desktop Search with Category Dropdown Inside Input */}
+          
             <div className="d-none d-md-flex search-category align-items-center ms-aut w-100 ms- b border px-1 rounded">
-              {/* <input className="form-control me-2 w-100 ms-1 border-0" type="search" placeholder="Search for products" aria-label="Search" /> */}
+             
              
              
              
@@ -240,7 +239,7 @@ const handleProductClick = (product) => {
                 key={index}
                 className="d-flex align-items-center p-2 border-bottom"
                 style={{ cursor: "pointer" }}
-                onClick={() => handleProductClick(product)} // Navigate on click
+                onClick={() => handleProductClick(product)} 
               >
                 <img
                   src={product.image}
@@ -264,7 +263,7 @@ const handleProductClick = (product) => {
              
              
 
-              {/* </div> */}
+              
               <Icon height={35} className=" searchicon  b text-black " icon="bitcoin-icons:search-filled" />
             
             </div>
@@ -332,7 +331,7 @@ const handleProductClick = (product) => {
   </ul>
 </div>
 < SigninDrawer isDrawerOpen={isDrawerOpen} handleDrawerOpen={handleDrawerOpen} handleDrawerClose={handleDrawerClose}  />
-      {/* Outlet for page content */}
+    
       <MyDrawer show={show} toggleDrawerSidebar={toggleDrawerSidebar}  />  
       <Outlet />
       <Footer/>

@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import "./Style.css"
 
 
@@ -11,13 +10,13 @@ const AboutUs = () => {
    
    
     <div className="container-fluid p-0">
-      {/* Header Section */}
+    
       <div className="maine text-white text-center py-5">
         <h1>About us</h1>
         <p>HOME / ABOUT US</p>
       </div>
 
-      {/* Content Section */}
+    
       <div className="container py-5">
         <div className="row d-flex justify-content-center">
           <div className="col-md-10">

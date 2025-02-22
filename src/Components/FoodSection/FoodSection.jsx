@@ -6,7 +6,7 @@ import "./Style.css"
 const FoodSection = () => {
   return (
     <>
-    {/* <h3 className="text-center mt-5">DISCOUNTED PRODUCTS</h3> */}
+  
    
     <div className="container-fluid py-5">
       <div className="row align-items-center bgcolore text-dark px-4 py-5">
@@ -19,7 +19,7 @@ const FoodSection = () => {
           <img style={{ maxWidth:"360px",minWidth:"360px"}} src={image} alt="Pet Food" className="img-fluid" />
         </div>
       </div>
-      {/* <h3 className="text-center mt-5">DISCOUNTED PRODUCTS</h3> */}
+    
     </div>
     </>
   );

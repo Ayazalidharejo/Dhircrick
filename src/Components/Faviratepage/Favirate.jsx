@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import { Link } from 'react-router-dom'; // Import Link for navigation
-import { Tooltip, Grid, Box, Button } from "@mui/material";
-import DragHandleIcon from '@mui/icons-material/DragHandle';
-import MenuIcon from '@mui/icons-material/Menu';
+
+
 
 // Import product images
 import one from "../images/babycream11.png";
@@ -24,7 +22,7 @@ import "./Style.css";
 import { addProduct } from "../Slice/Slice";
 import { useDispatch } from "react-redux";
 
-// Categories Data with links for each category
+
 const categories = [
   { name: "Baby Products", products: 14, cat: "Product", link: "/Babyproduct" },
   { name: "Beauty Products", products: 11, cat: "Product", link: "/Beautyproduct" },
@@ -55,19 +53,19 @@ const allProducts = [
 ];
 
 const Favirate = () => {
-  const [priceRange, setPriceRange] = useState(70); // Default max price is 70
+  const [priceRange, setPriceRange] = useState(70); 
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
-  const [columnsPerRow, setColumnsPerRow] = useState(4); // Default number of columns per row is 4
-  const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
+  const [columnsPerRow, setColumnsPerRow] = useState(4); 
+  const [selectedCategory, setSelectedCategory] = useState(""); 
 
   const dispatch = useDispatch();
 
-  // Function to handle range input and filter products
+
   const handlePriceChange = (event) => {
     const rangeValue = event.target.value;
     setPriceRange(rangeValue);
 
-    // Filter products based on price range
+  
     const filtered = allProducts.filter((product) => {
       const price = parseFloat(product.price.replace('$', ''));
       return price <= rangeValue;
@@ -76,12 +74,12 @@ const Favirate = () => {
     setFilteredProducts(filtered);
   };
 
-  // Function to handle category change
+
   const handleCategoryChange = (event) => {
     const category = event.target.value;
     setSelectedCategory(category);
 
-    // Filter products based on selected category
+
     const filteredByCategory = category
       ? allProducts.filter((product) => product.category === category)
       : allProducts;
@@ -89,7 +87,6 @@ const Favirate = () => {
     setFilteredProducts(filteredByCategory);
   };
 
-  // Function to handle column change based on button click
   const handleColumnChange = (newColumns) => {
     setColumnsPerRow(newColumns);
   };
@@ -130,7 +127,7 @@ const Favirate = () => {
         </a>
       </div>
     </div>
-      {/* <Footer /> */}
+    
     </>
   );
 };

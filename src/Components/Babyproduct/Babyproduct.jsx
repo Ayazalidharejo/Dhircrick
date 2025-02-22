@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import { Link, useNavigate } from 'react-router-dom'; // Import Link for navigation
+import { Link, useNavigate } from 'react-router-dom';
 import { Tooltip, Grid, Box, Button } from "@mui/material";
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -24,7 +24,7 @@ import "./Style.css";
 import { addProduct } from "../Slice/Slice";
 import { useDispatch } from "react-redux";
 
-// Categories Data with links for each category
+
 const categories = [
   { name: "Baby Products", products: 14, cat: "Product", link: "/Babyproduct" },
   { name: "Beauty Products", products: 11, cat: "Product", link: "/Beautyproduct" },
@@ -39,7 +39,7 @@ const categories = [
   { name: "Sports and Outdoor", products: 10, cat: "Product", link: "/Sportsandoutdoor" },
 ];
 
-// Products Data
+
 const allProducts = [
   {id:39, name: "Clipart pro", price: "$12.99", category: "Baby product", image: one },
   {id:40, name: "baby niddle", price: "$9.99", category: "Baby product", image: two },
@@ -65,19 +65,19 @@ const Babyproduct = () => {
   };
 
   
-  const [priceRange, setPriceRange] = useState(70); // Default max price is 70
+  const [priceRange, setPriceRange] = useState(70); 
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
-  const [columnsPerRow, setColumnsPerRow] = useState(4); // Default number of columns per row is 4
-  const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
+  const [columnsPerRow, setColumnsPerRow] = useState(4); 
+  const [selectedCategory, setSelectedCategory] = useState(""); 
 
   const dispatch = useDispatch();
 
-  // Function to handle range input and filter products
+
   const handlePriceChange = (event) => {
     const rangeValue = event.target.value;
     setPriceRange(rangeValue);
 
-    // Filter products based on price range
+    
     const filtered = allProducts.filter((product) => {
       const price = parseFloat(product.price.replace('$', ''));
       return price <= rangeValue;
@@ -86,12 +86,12 @@ const Babyproduct = () => {
     setFilteredProducts(filtered);
   };
 
-  // Function to handle category change
+
   const handleCategoryChange = (event) => {
     const category = event.target.value;
     setSelectedCategory(category);
 
-    // Filter products based on selected category
+  
     const filteredByCategory = category
       ? allProducts.filter((product) => product.category === category)
       : allProducts;
@@ -99,7 +99,7 @@ const Babyproduct = () => {
     setFilteredProducts(filteredByCategory);
   };
 
-  // Function to handle column change based on button click
+
   const handleColumnChange = (newColumns) => {
     setColumnsPerRow(newColumns);
   };
@@ -114,7 +114,7 @@ const Babyproduct = () => {
               <h1 className="ms-3 textmaine pt-3">Baby Products</h1>
             </div>
 
-            {/* Category Links Section */}
+          
             <div className="d-flex justify-content-center align-items-center text-center py-2">
               <ul className="list-unstyled d-flex flex-wrap justify-content-center align-items-center text-center ">
                 {categories.map((category, index) => (
@@ -132,9 +132,9 @@ const Babyproduct = () => {
             </div>
           </div>
 
-          {/* Sidebar and Product Grid using Material UI Grid */}
+        
           <Grid container spacing={0} mx={0}>
-            {/* Sidebar */}
+          
             <Grid item xs={12} sm={6} md={3} className="bg-light p-4">
               <h5>FILTER BY PRICE</h5>
               <input style={{color:"#7e0926"}}
@@ -171,7 +171,6 @@ const Babyproduct = () => {
               </ul>
             </Grid>
 
-            {/* Product Grid */}
             <Grid item xs={12} md={9}>
               <div className="d-flex justify-content-between align-items-center mt-5">
                 <div className="text-black fw-bold  hide-xs">
@@ -179,7 +178,6 @@ const Babyproduct = () => {
                 </div>
                 <div className="d-flex justify-content-center ps-5  hide-xs">
                   <div className="d-flex align-items-center text-black"><span>Show :</span> <span>9 / 12 /18</span></div>
-                  {/* <Button onClick={() => handleColumnChange(2)} variant="outlined" className="mx-2"><DragHandleIcon /> </Button> */}
                   <Button style={{color:"#7e0926"}} onClick={() => handleColumnChange(4)} className="mx-2 bcolor "><MenuIcon /> </Button>
                   <Button style={{color:"#7e0926"}} onClick={() => handleColumnChange(6)}  className="mx-2"><MenuIcon /> </Button>
                 </div>
@@ -203,7 +201,7 @@ const Babyproduct = () => {
 
               </div>
 
-              {/* Product Grid */}
+         
               <Grid container spacing={0}>
                 {filteredProducts.map((product, index) => (
                   <Grid item xs={6} sm={6} md={4} lg={columnsPerRow === 6 ? 2 : 3} key={index}>
@@ -232,7 +230,7 @@ const Babyproduct = () => {
           </Grid>
         </div>
       </div>
-      {/* <Footer /> */}
+
     </>
   );
 };

@@ -179,7 +179,7 @@ const Grocerygourmet = () => {
                 </div>
                 <div className="d-flex justify-content-center ps-5  hide-xs">
                   <div className="d-flex align-items-center text-black"><span>Show :</span> <span>9 / 12 /18</span></div>
-                  {/* <Button onClick={() => handleColumnChange(2)} variant="outlined" className="mx-2"><DragHandleIcon /> </Button> */}
+                
                   <Button onClick={() => handleColumnChange(4)}  className="mx-2 bcolor"><MenuIcon /> </Button>
                   <Button onClick={() => handleColumnChange(6)}  className="mx-2 bcolor"><MenuIcon /> </Button>
                 </div>
@@ -231,7 +231,7 @@ const Grocerygourmet = () => {
           </Grid>
         </div>
       </div>
-      {/* <Footer /> */}
+
     </>
   );
 };

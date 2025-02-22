@@ -1,32 +1,28 @@
+
 .backgroundcolor{
     background-color: #000000;
 }
-/* Apply opacity to links */
+
 ul li a {
     opacity: 0.8;
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease; 
     font-size: 12px;
   }
   
-  /* Change opacity on hover */
+
   ul li a:hover {
     opacity: 1;
     font-weight: 800;
   }
 
-/* Media query for screens 480px or smaller */
+
 @media (max-width: 480px) {
   .copyrights {
-    /* Add your styles for small screens here */
-    text-align: center; /* Example style */
-    font-size: 14px;    /* Example style */
-    margin-top: 20px;   /* Example style */
-    padding: 10px;      /* Example style */
+ 
+    text-align: center; 
+    font-size: 14px;    
+    margin-top: 20px;  
+    padding: 10px;      
   }
 }
-@media (min-width: 1280px) {
-  .fotr {
-   /* padding-left: 80px !important; */
-  
-  }
-}
+

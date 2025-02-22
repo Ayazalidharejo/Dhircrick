@@ -68,22 +68,22 @@ body {
     color: white !important;
   }
 
-   /* Custom styling for the range slider track */
+ 
 .form-range {
   -webkit-appearance: none;
   width: 100%;
   height: 5px;
-  background: #7e0926; /* Apply color to the track */
+  background: #7e0926;
   border-radius: 5px;
   outline: none;
 }
 
-/* Styling the slider thumb (handle) */
+
 .form-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 15px;
   height: 15px;
-  background: #7e0926; /* Apply color to the thumb */
+  background: #7e0926; 
   border-radius: 50%;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 .form-range::-moz-range-thumb {
   width: 15px;
   height: 15px;
-  background: #7e0926; /* Apply color to the thumb */
+  background: #7e0926; 
   border-radius: 50%;
   cursor: pointer;
 }
